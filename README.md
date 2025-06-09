@@ -7,8 +7,10 @@ Whether you're a beginner curious about robotics or an enthusiast eager to dive 
 -----
 
 ## Getting Started: Acquiring Your SO-ARM101
-![image](https://github.com/user-attachments/assets/970871e0-c7c4-40c3-a7d5-526767895b33)
-![image](https://github.com/user-attachments/assets/88b2f6be-9619-4226-8885-901d5d21c7fd)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88b2f6be-9619-4226-8885-901d5d21c7fd" width="400px" style="display: inline-block; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
+</p>
 
 If you don't yet have a LeRobot SO-ARM101, you have a few options to get started:
 
