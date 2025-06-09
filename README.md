@@ -31,13 +31,11 @@ Properly setting up your servo motors is a crucial first step for stable and rel
   * **Download the Servo Configuration Tool:**
     You'll need the `FD1.9.8.5` servo debugging tool to configure your servo IDs and parameters.
     [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
+    You Should be able to see a page like below:
+    ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
 
   * **Follow the Configuration Tutorial:**
-    ***Please Note:*** The provided link for the tutorial (`https://www.youtube.com/watch?v=70GuJf2jbYk`) appears to be incomplete or incorrect. While this guide aims to be comprehensive, specific servo configuration steps can vary slightly. We recommend looking for official documentation or video tutorials related to `FD1.9.8.5` or `FeiTeng (FTServo)` servos on YouTube or within the `TheRobotStudio` community. We will update this section with a verified tutorial as soon as possible.
-
-    *Typical configuration involves connecting each servo to the tool, assigning a unique ID (e.g., 1 through 6 for a 6-DOF arm), and setting parameters like the rotation limits or initial position.*
-
------
+    [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
 
 ## What's Next in this Guide?
 
