@@ -1,16 +1,14 @@
-# robot-arm-guide
-
------
-
 ## Welcome to the Robot Arm Guide\!
 
-This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**.
+This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**, **ACT** and so on.
 
 Whether you're a beginner curious about robotics or an enthusiast eager to dive into imitation learning, this guide is designed to help you bring your SO-ARM101 to life and equip it with intelligent control.
 
 -----
 
 ## Getting Started: Acquiring Your SO-ARM101
+![image](https://github.com/user-attachments/assets/970871e0-c7c4-40c3-a7d5-526767895b33)
+![image](https://github.com/user-attachments/assets/88b2f6be-9619-4226-8885-901d5d21c7fd)
 
 If you don't yet have a LeRobot SO-ARM101, you have a few options to get started:
 
