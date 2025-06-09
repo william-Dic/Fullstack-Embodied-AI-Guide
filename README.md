@@ -8,7 +8,7 @@ Whether you're a beginner curious about robotics or an enthusiast eager to dive 
 
 ## Getting Started: Acquiring Your SO-ARM101
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a)" width="400px" style="display: inline-block; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a" width="400px" style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
 </p>
 
