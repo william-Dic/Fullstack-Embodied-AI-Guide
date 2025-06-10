@@ -1,15 +1,14 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
 
 <p align="center">
-  <img width="300" alt="Embodied AI Learning" src="http://googleusercontent.com/image_generation_content/1" />
+  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </p>
 
 > ## 🚀 **Ready to launch into robotics?** 🤖
-
-> This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
-
+> This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it > with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
 > Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
 
+make it more beautiful
 ## Getting Started: Acquiring Your SO-ARM101
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a" width="400px" style="display: inline-block; margin: 0 10px;">
