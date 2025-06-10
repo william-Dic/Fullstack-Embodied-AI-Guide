@@ -1,6 +1,6 @@
 ## Welcome to the Fullstack Embodied AI Guide\!
 <p align="center">
-  <img width="665" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </p>
 
 
