@@ -1,4 +1,5 @@
 ## Welcome to the Fullstack Embodied AI Guide\!
+![ChatGPT Image Jun 10, 2025, 06_15_06 PM](https://github.com/user-attachments/assets/2d0a9cd2-f7e9-4acb-9e8d-ebc4a20c2214)
 
 This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**, **ACT** and so on.
 
