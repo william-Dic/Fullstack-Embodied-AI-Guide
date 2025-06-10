@@ -1,7 +1,7 @@
 ## Welcome to the Fullstack Embodied AI Guide\!
-<p align="center"\>
-<img width="665" alt="f939a2605d4f7fcccc692090e379753" src=<img width="665" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" /> /\>
-</p\>
+<p align="center">
+  <img width="665" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+</p>
 
 
 This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**, **ACT** and so on.
