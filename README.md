@@ -1,4 +1,4 @@
-<h1 align="center">全栈具身智能指南-Fullstack Embodied AI Guide</h1>
+<h1 align="center">全栈具身智能指南 - Fullstack Embodied AI Guide</h1>
 
 <p align="center">
   <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
