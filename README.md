@@ -39,18 +39,41 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
   <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
 </p>
 
-If you don't yet have a LeRobot SO-ARM101, you have a few options to get started:
-
-* **Build Your Own:** Explore the official GitHub repository for the SO-ARM100 (the core design for the 101) to find detailed build instructions and component lists:
-    [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)
-* **Purchase a Kit:** You can find all optional for SO-100/SO-101 kits here:
-
-- from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
-- from Seeed studio :earth_africa: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or :cn: [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) or [Aliexpress](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt) (They include **3d printed kits**)
-- from WowRobo :earth_africa: [International](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1) or :cn: [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions)
-
-Additionally you can find SO-100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 ---
+## 1.1 Getting Started: Acquiring Your SO-ARM101
+
+If you're looking to get your hands on a LeRobot SO-ARM101, you've got a few great options to choose from:
+
+### Build Your Own
+
+For the DIY enthusiast, you can construct your own SO-ARM101. The official GitHub repository for the **SO-ARM100** (which forms the core design of the 101) provides comprehensive **build instructions** and a detailed **component list**.
+
+* **GitHub Repository:** [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)
+
+### Purchase a Kit
+
+Prefer to buy a kit? Several retailers offer various options for both the SO-100 and SO-101.
+
+* **PartaBot** (:us: US):
+    * Visit: [partabot.com](https://partabot.com)
+    * Offers **assembled versions** and also sells LeKiwi and Koch robots.
+
+* **Seeed Studio** (:earth_africa: International / :cn: China):
+    * International: [seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html)
+    * China (Taobao): [item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn)
+    * Aliexpress: [aliexpress.com/item/3256808696884714.html](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt)
+    * These options typically include **3D printed kits**.
+
+* **WowRobo** (:earth_africa: International / :cn: China):
+    * International: [shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1)
+    * China (Taobao): [item.taobao.com/item.htm?ft=t&id=860171734711](https://item.taobao.com/item.htm?ft=t&id=860171734711)
+    * They offer **assembled versions**.
+
+### SO-100 Follower Arm Kit
+
+If you already own a VR headset, you might find the SO-100 follower arm kit particularly useful. This kit, which does not include the leader arm, is available from:
+
+* **Phospho:** [robots.phospho.ai](https://robots.phospho.ai)
 
 ### 1.2 Setting Up Your Robotic Arm
 
