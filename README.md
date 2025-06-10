@@ -39,11 +39,6 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
   <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
 </p>
 
----
-## 1.1 Getting Started: Acquiring Your SO-ARM101
-
-If you're looking to get your hands on a LeRobot SO-ARM101, you've got a few great options to choose from:
-
 ### Build Your Own
 
 For the DIY enthusiast, you can construct your own SO-ARM101. The official GitHub repository for the **SO-ARM100** (which forms the core design of the 101) provides comprehensive **build instructions** and a detailed **component list**.
