@@ -31,8 +31,9 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 * [Troubleshooting & Advanced Tips](#troubleshooting--advanced-tips)
 
 ---
+### 1. Hardware
 
-## Getting Started: Acquiring Your SO-ARM101
+## 1.1 Getting Started: Acquiring Your SO-ARM101
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a" width="400px" style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
@@ -46,11 +47,11 @@ If you don't yet have a LeRobot SO-ARM101, you have a few options to get started
 
 ---
 
-## Setting Up Your Robotic Arm
+## 1.2 Setting Up Your Robotic Arm
 
 Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control!
 
-### 1. Pre-configuring Servo IDs and Parameters
+1. Pre-configuring Servo IDs and Parameters
 
 Properly setting up your servo motors is a crucial first step for stable and reliable arm operation.
 
@@ -62,19 +63,6 @@ Properly setting up your servo motors is a crucial first step for stable and rel
 
 * **Follow the Configuration Tutorial:**
     [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
-
----
-
-## What's Next in this Guide?
-
-This guide will progressively lead you through:
-
-* **Hardware Assembly & Wiring:** Detailed instructions for putting your SO-ARM101 together.
-* **Basic Control & Calibration:** Getting your arm to move with simple commands.
-* **Software Environment Setup:** Preparing your computer for advanced robotics development (Python, relevant libraries).
-* **Introduction to Diffusion Policy:** Understanding the theory behind this powerful imitation learning technique.
-* **Implementing Diffusion Policy:** Practical steps to collect data, train models, and deploy Diffusion Policy on your SO-ARM101 for various tasks.
-* **Troubleshooting & Advanced Tips:** Common issues and how to resolve them.
 
 ---
 
