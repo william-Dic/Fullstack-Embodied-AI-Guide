@@ -5,7 +5,8 @@
 </p>
 
 > ## 🚀 **Ready to launch into robotics?** 🤖
-> This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it > with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
+> This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
+
 > Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
 
 make it more beautiful
