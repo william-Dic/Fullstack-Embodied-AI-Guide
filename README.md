@@ -9,7 +9,6 @@
 
 > Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
 
-make it more beautiful
 ## Getting Started: Acquiring Your SO-ARM101
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a" width="400px" style="display: inline-block; margin: 0 10px;">
