@@ -1,4 +1,4 @@
-## Welcome to the Robot Arm Guide\!
+## Welcome to the Fullstack EmbodiedAI Guide\!
 
 This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**, **ACT** and so on.
 
