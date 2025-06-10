@@ -1,16 +1,10 @@
-<table>
-  <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
-    </td>
-    <td style="vertical-align: top;">
-      This repository serves as a comprehensive, step-by-step guide to building, configuring, and operating your **LeRobot SO-ARM101 Robotic Arm**. Our mission is to demystify robotics and AI by providing a hands-on learning experience, culminating in the implementation of advanced control techniques like **Diffusion Policy**, **ACT** and so on.
+<p align="center">
+  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+</p>
 
-      Whether you're a beginner curious about robotics or an enthusiast eager to dive into imitation learning, this guide is designed to help you bring your SO-ARM101 to life and equip it with intelligent control.
-    </td>
-  </tr>
-</table>
------
+Ready to dive into robotics? This guide is your ultimate starting point for bringing the embodied AI to life. We'll walk you through everything, from building your robot to equipping it with cutting-edge AI control techniques like Diffusion Policy and ACT.
+
+Whether you're new to robotics or eager to explore advanced AI, get ready for a hands-on learning adventure that makes complex concepts simple and fun!
 
 ## Getting Started: Acquiring Your SO-ARM101
 <p align="center">
