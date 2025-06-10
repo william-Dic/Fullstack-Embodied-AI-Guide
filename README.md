@@ -31,9 +31,9 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 * [Troubleshooting & Advanced Tips](#troubleshooting--advanced-tips)
 
 ---
-### 1. Hardware
+## 1. Hardware
 
-## 1.1 Getting Started: Acquiring Your SO-ARM101
+### 1.1 Getting Started: Acquiring Your SO-ARM101
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6f5992b-b02d-47b0-93b9-468cc09bba3a" width="400px" style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/06e1a231-ca57-4cd7-82fa-a757346b884e" width="400px" style="display: inline-block; margin: 0 10px;">
@@ -47,7 +47,7 @@ If you don't yet have a LeRobot SO-ARM101, you have a few options to get started
 
 ---
 
-## 1.2 Setting Up Your Robotic Arm
+### 1.2 Setting Up Your Robotic Arm
 
 Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control!
 
