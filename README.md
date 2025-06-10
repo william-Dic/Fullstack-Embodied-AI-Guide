@@ -41,9 +41,13 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 
 If you don't yet have a LeRobot SO-ARM101, you have a few options to get started:
 
-* **Build Your Own:** Explore the official GitHub repository for the SO-ARM100 (the core design for the 101) to find detailed build instructions and component lists:
-    [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)
-* **Purchase a Kit:** You can often find ready-to-assemble kits or pre-built arms on platforms like Amazon or Taobao for less than £200.
+- **Build it Yourself**
+   - Source the components from the [Bill of Materials](#sourcing-parts).
+   - 3D print the parts (or order the 3D printed parts), explained in [Printing the Parts](#printing-the-parts).
+   - Follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
+- **Buy a Kit**
+   - Buy assembled arms or a parts kit from one of the vendors [here](#kits).
+   - Optionally follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 
 ---
 
