@@ -1,6 +1,7 @@
 <p align="center">
   <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </p>
+
 ## **Ready to launch into robotics?** 🤖
 
 This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
