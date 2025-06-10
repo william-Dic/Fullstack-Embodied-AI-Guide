@@ -16,9 +16,7 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 ### 1. Hardware
 
 * 1.1 [Getting Started: Acquiring Your SO-ARM101](#getting-started-acquiring-your-so-arm101)
-    * [Build Your Own](https://github.com/TheRobotStudio/SO-ARM100)
-    * Purchase a Kit
-* [Setting Up Your Robotic Arm](#setting-up-your-robotic-arm)
+* 1.2 [Setting Up Your Robotic Arm](#setting-up-your-robotic-arm)
     * [Pre-configuring Servo IDs and Parameters](#pre-configuring-servo-ids-and-parameters)
     * [Download the Servo Configuration Tool](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
     * [Follow the Configuration Tutorial](https://www.youtube.com/watch?v=70GuJf2jbYk)
