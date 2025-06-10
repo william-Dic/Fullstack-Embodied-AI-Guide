@@ -1,18 +1,14 @@
+<h1 align="center">Fullstack Embodied AI Guide</h1>
+
 <p align="center">
   <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </p>
 
-## 🚀 **Ready to launch into robotics?** 🤖 
-## 🚀 **准备好投身机器人领域了吗？** 🤖 
+> ## 🚀 **Ready to launch into robotics?** 🤖
 
-This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
-本指南是您将**具身AI**变为现实的**终极起点**！我们将带您了解一切：从**零开始搭建您的机器人**，到为其配备**Diffusion Policy**和**ACT**等**尖端AI控制技术**。🧠✨
+> This guide is your **ultimate starting point** for bringing **embodied AI** to life! We'll walk you through everything: from **building your robot** from scratch to equipping it > with **cutting-edge AI control techniques** like **Diffusion Policy** and **ACT**. 🧠✨
 
-Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
-无论您是好奇机器人的初学者，还是渴望探索高级AI的爱好者，请准备好迎接一场**动手实践的学习之旅**，让复杂的概念变得**简单有趣！** 🌟🛠️
-
----
-
+> Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
 
 ## Getting Started: Acquiring Your SO-ARM101
 <p align="center">
