@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/ad39baf9-12b0-4017-a2b6-5fb84a48b392" />
 </p>
 
 Ready to dive into robotics? This guide is your ultimate starting point for bringing the embodied AI to life. We'll walk you through everything, from building your robot to equipping it with cutting-edge AI control techniques like Diffusion Policy and ACT.
