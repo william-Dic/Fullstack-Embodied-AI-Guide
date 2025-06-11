@@ -76,6 +76,16 @@ Properly setting up your servo motors is a crucial first step for stable and rel
     [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
     You should be able to see a page like below:
     ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
+  
+* **Order your servos for Leader Arm**
+  Different Gear Ratio means different torque so we need to give each servo a ID means which joint should we connect the servo. I high recommend use paper to name your servo in advance so you won't messed up.![image](https://github.com/user-attachments/assets/a524c519-1ece-4a69-9783-8c17f7e586a3)
+  After you named it, you need to open the Servo Configuration Tool above and we will set the ID number to them one by one.
+  ![image](https://github.com/user-attachments/assets/5493b828-6995-4775-a622-27921ef4bb6f)
+  Here are two things we need to change, one is the ID of the servo, set the ID to the corrsponding ID
+  ![image](https://github.com/user-attachments/assets/768b508f-515a-4011-8111-eb1d4548da9a)
+  The other is the Amax always change it to 254
+  ![image](https://github.com/user-attachments/assets/d957b49e-243b-46e3-952d-daa7e0eda20b)
+
 
 ---
 
