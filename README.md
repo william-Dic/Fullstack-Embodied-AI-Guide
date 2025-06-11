@@ -75,21 +75,13 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
     * ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
 
 * **Setting Up Your Leader Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
-    * ![image](https://github.com/user-attachments/assets/a524c519-1ece-4a69-9783-8c17f7e586a3)
-
-    1.  **Label Your Servos:** Before you begin, I highly recommend **labeling your servos with their intended joint ID (e.g., J1, J2, J3, etc.) on paper**. This will prevent confusion and ensure you connect the right servo to the right place.
-
+    * ![image](https://github.com/user-attachments/assets/5493b828-6995-4775-a622-27921ef4bb6f)
+    1.  **Label Your Servos:** Before you begin, I highly recommend **labeling your servos with their intended joint ID (e.g., 1, 2, 3, etc.) on paper**. This will prevent confusion and ensure you connect the right servo to the right place.
+        * ![image](https://github.com/user-attachments/assets/a524c519-1ece-4a69-9783-8c17f7e586a3)
     2.  **Configure Servo IDs and Amax:** Once your servos are labeled, you'll use the **Servo Configuration Tool** to set their IDs and Amax values.
-        * ![image](https://github.com/user-attachments/assets/5493b828-6995-4775-a622-27921ef4bb6f)
-
         Using the Servo Configuration Tool, you'll need to make two key changes for each servo:
-
         1.  **Set the Servo ID:** Assign the **corresponding joint ID** that you determined in the labeling step. This ensures the arm's control system can properly communicate with each servo.
-            * ![image](https://github.com/user-attachments/assets/768b508f-515a-4011-8111-eb1d4548da9a)
-
         2.  **Adjust Amax to 254:** Always change the **Amax value to 254**. This setting is crucial for optimal performance of your Leader Arm.
-            * ![image](https://github.com/user-attachments/assets/d957b49e-243b-46e3-952d-daa70eda20b)
-
         By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
         
 ---
