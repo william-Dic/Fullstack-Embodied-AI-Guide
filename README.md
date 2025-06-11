@@ -75,20 +75,14 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
     * ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
 
 * **Setting Up Your Leader Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
-    * ![image](https://github.com/user-attachments/assets/5493b828-6995-4775-a622-27921ef4bb6f)
     1.  **Label Your Servos:** Before you begin, I highly recommend **labeling your servos with their intended joint ID (e.g., 1, 2, 3, etc.) on paper**. This will prevent confusion and ensure you connect the right servo to the right place.
-        * ![image](https://github.com/user-attachments/assets/a524c519-1ece-4a69-9783-8c17f7e586a3)
     2.  **Configure Servo IDs and Amax:** Once your servos are labeled, you'll use the **Servo Configuration Tool** to set their IDs and Amax values.
         Using the Servo Configuration Tool, you'll need to make two key changes for each servo:
         1.  **Set the Servo ID:** Assign the **corresponding joint ID** that you determined in the labeling step. This ensures the arm's control system can properly communicate with each servo.
-            ![image](https://github.com/user-attachments/assets/91f2daae-23c1-4954-bd1e-3b41897500fa)
         2.  **Adjust Amax to 254:** Always change the **Amax value to 254**. This setting is crucial for optimal performance of your Leader Arm.
-            ![image](https://github.com/user-attachments/assets/1615a84c-30e7-4901-a12d-645e6f4975b7)
-
         By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
 
 * **Setting Up Your Follower Arm Servos** The setup process for your Follower Arm servos is **fundamentally the same** as for the Leader Arm, but keep in mind they will have a **different gear ratio**.
-    * ![image](https://github.com/user-attachments/assets/7032246a-3790-4acb-9fb2-4f985b8b4aab)
       You will still need to label each servo with its intended joint ID and then use the Servo Configuration Tool to set their unique IDs and the Amax value to 254.
 
 ### 1.3 Assembling Your Robotic Arm
@@ -97,7 +91,7 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 
 * **Assembly CAD Animation:** [LeRobot SO-ARM101 Robotic Arm Assembly CAD Animation](https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9)
 * **Assembly Real Demenstration:**
-    * **Leader Arm Assembly (7:36):** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=7m36s)
+    * **Leader Arm Assembly** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=7m36s)
     * **Follower Arm Assembly:** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
 
 ---
