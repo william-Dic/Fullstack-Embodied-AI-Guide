@@ -68,23 +68,24 @@ Prefer to buy a kit? Several retailers offer various options for both the SO-100
 
 ### 1.2 Setting Up Your Robotic Arm
 
-Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control!
-Properly setting up your servo motors is a crucial first step for stable and reliable arm operation. You can also **Follow the Configuration Tutorial:** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
+Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control! Properly setting up your servo motors is a crucial first step for stable and reliable arm operation. You can also **Follow the Configuration Tutorial**: [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
 
-* **Download the Servo Configuration Tool:**
-    You'll need the `FD1.9.8.5` servo debugging tool to configure your servo IDs and parameters.
-    [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
-    You should be able to see a page like below:
-    ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
-  
-* **Order your servos for Leader Arm**
-  Different Gear Ratio means different torque so we need to give each servo a ID means which joint should we connect the servo. I high recommend use paper to name your servo in advance so you won't messed up.![image](https://github.com/user-attachments/assets/a524c519-1ece-4a69-9783-8c17f7e586a3)
-  After you named it, you need to open the Servo Configuration Tool above and we will set the ID number to them one by one.
-  ![image](https://github.com/user-attachments/assets/5493b828-6995-4775-a622-27921ef4bb6f)
-  Here are two things we need to change, one is the ID of the servo, set the ID to the corrsponding ID
-  ![image](https://github.com/user-attachments/assets/768b508f-515a-4011-8111-eb1d4548da9a)
-  The other is the Amax always change it to 254
-  ![image](https://github.com/user-attachments/assets/d957b49e-243b-46e3-952d-daa7e0eda20b)
+* **Download the Servo Configuration Tool:** You'll need the `FD1.9.8.5` servo debugging tool to configure your servo IDs and parameters.
+    * [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
+
+* **Setting Up Your Leader Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
+
+    1.  **Label Your Servos:** Before you begin, I highly recommend **labeling your servos with their intended joint ID (e.g., J1, J2, J3, etc.) on paper**. This will prevent confusion and ensure you connect the right servo to the right place.
+
+    2.  **Configure Servo IDs and Amax:** Once your servos are labeled, you'll use the **Servo Configuration Tool** to set their IDs and Amax values.
+
+        Using the Servo Configuration Tool, you'll need to make two key changes for each servo:
+
+        1.  **Set the Servo ID:** Assign the **corresponding joint ID** that you determined in the labeling step. This ensures the arm's control system can properly communicate with each servo.
+
+        2.  **Adjust Amax to 254:** Always change the **Amax value to 254**. This setting is crucial for optimal performance of your Leader Arm.
+
+        By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
 
 
 ---
