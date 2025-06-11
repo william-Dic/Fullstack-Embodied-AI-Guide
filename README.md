@@ -81,7 +81,10 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
     2.  **Configure Servo IDs and Amax:** Once your servos are labeled, you'll use the **Servo Configuration Tool** to set their IDs and Amax values.
         Using the Servo Configuration Tool, you'll need to make two key changes for each servo:
         1.  **Set the Servo ID:** Assign the **corresponding joint ID** that you determined in the labeling step. This ensures the arm's control system can properly communicate with each servo.
+            ![image](https://github.com/user-attachments/assets/91f2daae-23c1-4954-bd1e-3b41897500fa)
         2.  **Adjust Amax to 254:** Always change the **Amax value to 254**. This setting is crucial for optimal performance of your Leader Arm.
+            ![image](https://github.com/user-attachments/assets/1615a84c-30e7-4901-a12d-645e6f4975b7)
+
         By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
         
 ---
