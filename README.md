@@ -89,7 +89,16 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
 
 * **Setting Up Your Follower Arm Servos** The setup process for your Follower Arm servos is **fundamentally the same** as for the Leader Arm, but keep in mind they will have a **different gear ratio**.
     * ![image](https://github.com/user-attachments/assets/7032246a-3790-4acb-9fb2-4f985b8b4aab)
-    * You will still need to label each servo with its intended joint ID and then use the Servo Configuration Tool to set their unique IDs and the Amax value to 254.
+      You will still need to label each servo with its intended joint ID and then use the Servo Configuration Tool to set their unique IDs and the Amax value to 254.
+
+### 1.3 Assembling Your Robotic Arm
+
+Now that all your servos are configured, it's time to assemble your robot arm! Please follow the CAD animation provided in the link below. **Pay close attention as the CAD for the Leader and Follower arms are different.**
+
+* **Assembly CAD Animation:** [https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9]*
+* **Assembly Real Demenstration:**
+    * **Leader Arm Assembly (7:36):** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=7m36s)
+    * **Follower Arm Assembly:** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
 
 ---
 ## Contributing
