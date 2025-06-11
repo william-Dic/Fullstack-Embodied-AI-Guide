@@ -69,9 +69,6 @@ Prefer to buy a kit? Several retailers offer various options for both the SO-100
 ### 1.2 Setting Up Your Robotic Arm
 
 Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control!
-
-1. Pre-configuring Servo IDs and Parameters
-
 Properly setting up your servo motors is a crucial first step for stable and reliable arm operation.
 
 * **Download the Servo Configuration Tool:**
