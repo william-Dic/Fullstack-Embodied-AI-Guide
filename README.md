@@ -86,7 +86,11 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
             ![image](https://github.com/user-attachments/assets/1615a84c-30e7-4901-a12d-645e6f4975b7)
 
         By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
-        
+
+* **Setting Up Your Follower Arm Servos** The setup process for your Follower Arm servos is **fundamentally the same** as for the Leader Arm, but keep in mind they will have a **different gear ratio**.
+    * ![image](https://github.com/user-attachments/assets/7032246a-3790-4acb-9fb2-4f985b8b4aab)
+    * You will still need to label each servo with its intended joint ID and then use the Servo Configuration Tool to set their unique IDs and the Amax value to 254.
+
 ---
 ## Contributing
 
