@@ -95,7 +95,7 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
 
 Now that all your servos are configured, it's time to assemble your robot arm! Please follow the CAD animation provided in the link below. **Pay close attention as the CAD for the Leader and Follower arms are different.**
 
-* **Assembly CAD Animation:** [https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9]*
+* **Assembly CAD Animation:** [LeRobot SO-ARM101 Robotic Arm Assembly CAD Animation](https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9)
 * **Assembly Real Demenstration:**
     * **Leader Arm Assembly (7:36):** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=7m36s)
     * **Follower Arm Assembly:** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
