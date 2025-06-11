@@ -69,16 +69,13 @@ Prefer to buy a kit? Several retailers offer various options for both the SO-100
 ### 1.2 Setting Up Your Robotic Arm
 
 Once you have your SO-ARM101 kit and components ready, let's dive into the exciting world of robotic arm control!
-Properly setting up your servo motors is a crucial first step for stable and reliable arm operation.
+Properly setting up your servo motors is a crucial first step for stable and reliable arm operation. You can also **Follow the Configuration Tutorial:** [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
 
 * **Download the Servo Configuration Tool:**
     You'll need the `FD1.9.8.5` servo debugging tool to configure your servo IDs and parameters.
     [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
     You should be able to see a page like below:
     ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
-
-* **Follow the Configuration Tutorial:**
-    [LeRobot SO-ARM101 Robotic Arm - Assembly and Setup Guide](https://www.youtube.com/watch?v=70GuJf2jbYk)
 
 ---
 
