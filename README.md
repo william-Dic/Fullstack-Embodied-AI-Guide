@@ -63,12 +63,8 @@ Prefer to buy a kit? Several retailers offer various options for both the SO-100
     * International: [shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1)
     * China (Taobao): [item.taobao.com/item.htm?ft=t&id=860171734711](https://item.taobao.com/item.htm?ft=t&id=860171734711)
     * They offer **assembled versions**.
+---
 
-### SO-100 Follower Arm Kit
-
-If you already own a VR headset, you might find the SO-100 follower arm kit particularly useful. This kit, which does not include the leader arm, is available from:
-
-* **Phospho:** [robots.phospho.ai](https://robots.phospho.ai)
 
 ### 1.2 Setting Up Your Robotic Arm
 
