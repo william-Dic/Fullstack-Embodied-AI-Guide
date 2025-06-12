@@ -104,12 +104,12 @@ To prevent the servo and for calibration purpose we need to set joint midpoint a
 <table>
   <tr>
     <td style="text-align: center; padding: 10px;">
-      <img width="500" alt="Joint Settings Interface" src="https://github.com/user-attachments/assets/b527ce01-eb1c-4ad0-a350-40169f80a158" />
+      <img width="500" src="https://github.com/user-attachments/assets/b527ce01-eb1c-4ad0-a350-40169f80a158" />
       <br>
       <em>Joint Settings Interface</em>
     </td>
     <td style="text-align: center; padding: 10px;">
-      <img width="300" alt="Servo List" src="https://github.com/user-attachments/assets/bba66224-2204-4acb-9653-be5c5dd85ee0" />
+      <img width="500" src="https://github.com/user-attachments/assets/bba66224-2204-4acb-9653-be5c5dd85ee0" />
       <br>
       <em>Servo List</em>
     </td>
