@@ -103,7 +103,7 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 To protect your servos and ensure accurate calibration, you need to configure the joint midpoint and limit settings for each servo. After correctly connecting all servos, the FD1.9.8.5 tool should display a screen similar to the one below, with your 6 servos listed on the left.
 
 <p align="center">
-<img width="400" alt="73ab90affda9715a740352f5acd9868" src="https://github.com/user-attachments/assets/81eb55c3-a764-4348-a965-c2697e4da608" />
+<img width="500" alt="73ab90affda9715a740352f5acd9868" src="https://github.com/user-attachments/assets/81eb55c3-a764-4348-a965-c2697e4da608" />
 </p>
 
 To set the limits:
