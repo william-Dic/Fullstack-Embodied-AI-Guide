@@ -75,9 +75,9 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
     * ![image](https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d)
 
 * **Setting Up Your Leader&Follower Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
-* <p align="center">
-  <img src="https://github.com/user-attachments/assets/a463d005-f887-4b31-b6fb-b59f822a3bec" width="400px" style="display: inline-block; margin: 0 10px;">
-  <img src="https://github.com/user-attachments/assets/93bae1dc-88f3-493a-81da-a8cc86f253dd" width="400px" style="display: inline-block; margin: 0 10px;">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a463d005-f887-4b31-b6fb-b59f822a2bec" width="400px" height="300px" style="display: inline-block; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/93bae1dc-88f3-493a-81da-a8cc86f253dd" width="400px" height="300px" style="display: inline-block; margin: 0 10px;">
 </p>
     1.  **Label Your Servos:** Before you begin, I highly recommend **labeling your servos with their intended joint ID (e.g., 1, 2, 3, etc.) on paper**. This will prevent confusion and ensure you connect the right servo to the right place.
     2.  **Configure Servo IDs and Amax:** Once your servos are labeled, you'll use the **Servo Configuration Tool** to set their IDs and Amax values.
