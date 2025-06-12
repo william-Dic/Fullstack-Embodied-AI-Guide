@@ -72,7 +72,7 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
 
 * **Download the Servo Configuration Tool:** You'll need the `FD1.9.8.5` servo debugging tool to configure your servo IDs and parameters.
     * [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
-    * <img src="https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d" width="200">
+  <img src="https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d" width="400">
 
 * **Setting Up Your Leader&Follower Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
 <p align="center">
