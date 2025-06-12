@@ -95,8 +95,8 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 * **Assembly CAD Animation:** [LeRobot SO-ARM101 Robotic Arm Assembly CAD Animation](https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9)
 * **Assembly Real Demonstration:**
     * **Leader Arm Assembly:** [LeRobot SO-ARM101 Leader Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk)
-    * **Follower Arm Assembly:** [LeRobot SO-ARM101 Follower Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk&m24s40)
-* **Wiring Demonstration:** [LeRobot SO-ARM101 Wiring Demenstration](http://www.youtube.com/watch?v=70GuJf2jbYk&m54s07)
+    * **Follower Arm Assembly:** [LeRobot SO-ARM101 Follower Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
+* **Wiring Demonstration:** [LeRobot SO-ARM101 Wiring Demenstration](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
 
 ### 1.4 Joint Midpoint and Limit Settings
 
