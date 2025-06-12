@@ -96,7 +96,7 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 * **Assembly Real Demonstration:**
     * **Leader Arm Assembly:** [LeRobot SO-ARM101 Leader Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk)
     * **Follower Arm Assembly:** [LeRobot SO-ARM101 Follower Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
-* **Wiring Demonstration:** [LeRobot SO-ARM101 Wiring Demenstration](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
+* **Wiring Demonstration:** [LeRobot SO-ARM101 Wiring Demenstration](http://www.youtube.com/watch?v=70GuJf2jbYk&t=41m15s)
 
 ### 1.4 Joint Midpoint and Limit Settings
 
@@ -108,7 +108,8 @@ To prevent the servo and for calibration purpose we need to set joint midpoint a
 Then move each joint to maximum/minimum position and then according to the value shown in *cureent position* change your limits.
 For Joints 1-5: Reserve a margin of 20 - 30 from the actual reachable encoder value (address56).
 For Joint 6: Reserve a margin of 10 - 20 from the actual reachable encoder value.
-You can find more detailed handon demo in [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk)
+You can find more detailed handon demo in [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
+
 ---
 ## Contributing
 
