@@ -100,15 +100,18 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 
 ### 1.4 Joint Midpoint and Limit Settings
 
-To prevent the servo and for calibration purpose we need to set joint midpoint and Limit Settings for each servo, when you connect all the servos correctly, open your FD1.9.8.5 you should be able to see a page like below. You have 6 servos listed in the left column.
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/bba66224-2204-4acb-9653-be5c5dd85ee0" width="400px" height="250px" style="display: inline-block; margin: 0 10px;">
-  </p>
+To protect your servos and ensure accurate calibration, you need to configure the joint midpoint and limit settings for each servo. After correctly connecting all servos, the FD1.9.8.5 tool should display a screen similar to the one below, with your 6 servos listed on the left.
 
-Then move each joint to maximum/minimum position and then according to the value shown in *cureent position* change your limits.
-For Joints 1-5: Reserve a margin of 20 - 30 from the actual reachable encoder value (address56).
-For Joint 6: Reserve a margin of 10 - 20 from the actual reachable encoder value.
-You can find more detailed handon demo in [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
+To set the limits:
+
+1.  Move each joint to its maximum and minimum positions.
+2.  Note the *current position* values displayed in the FD1.9.8.5 tool.
+3.  Adjust the limit settings for each joint, using the noted values.
+
+* **Joints 1-5:** Leave a margin of 20-30 from the maximum reachable encoder value (address56).
+* **Joint 6:** Leave a margin of 10-20 from the maximum reachable encoder value.
+
+For a detailed demonstration, please refer to this video: [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
 
 ---
 ## Contributing
