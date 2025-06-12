@@ -118,6 +118,10 @@ To set the limits:
 For a detailed demonstration, please refer to this video: [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk&t=54m07s)
 
 ---
+
+### 1.5 Joint Calibration
+
+
 ## Contributing
 
 We welcome contributions to make this guide even better! If you have suggestions, corrections, or want to add a new section (e.g., a verified servo configuration tutorial!), please feel free to open an issue or submit a pull request.
