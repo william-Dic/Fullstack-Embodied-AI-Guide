@@ -108,7 +108,7 @@ To prevent the servo and for calibration purpose we need to set joint midpoint a
 Then move each joint to maximum/minimum position and then according to the value shown in *cureent position* change your limits.
 For Joints 1-5: Reserve a margin of 20 - 30 from the actual reachable encoder value (address56).
 For Joint 6: Reserve a margin of 10 - 20 from the actual reachable encoder value.
-
+You can find more detailed handon demo in [LeRobot SO-ARM101 Joint Midpoint and Limit Settings](http://www.youtube.com/watch?v=70GuJf2jbYk)
 ---
 ## Contributing
 
