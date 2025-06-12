@@ -77,7 +77,7 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
 
 * **Setting Up Your Leader&Follower Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/a463d005-f887-4b31-b6fb-b59f822a2bec" width="400px" height="300px" style="display: inline-block; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/4c9a3a68-dac4-4652-813a-a1c6960e2581" width="400px" height="300px" style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/93bae1dc-88f3-493a-81da-a8cc86f253dd" width="400px" height="300px" style="display: inline-block; margin: 0 10px;">
   </p>
 
