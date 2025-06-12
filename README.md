@@ -88,18 +88,37 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
         2.  **Adjust Amax to 254:** Always change the **Amax value to 254**. This setting is crucial for optimal performance of your Leader Arm.
         By following these steps, you'll successfully prepare your servos for integration into the Leader Arm, ensuring smooth and accurate movement.
 
-### 1.3 Assembling Your Robotic Arm
+### 1.3 Assembling and Wiring Your Robotic Arm
 
-Now that all your servos are configured, it's time to assemble your robot arm! Please follow the CAD animation provided in the link below. **Pay close attention as the CAD for the Leader and Follower arms are different.**
+Now that all your servos are configured, it's time to assemble your robot arm! Please follow the CAD animation and real demonstration videos provided below. **Pay close attention as the CAD for the Leader and Follower arms are different.**
 
 * **Assembly CAD Animation:** [LeRobot SO-ARM101 Robotic Arm Assembly CAD Animation](https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9)
-* **Assembly Real Demenstration:**
-    * **Leader Arm Assembly** [LeRobot SO-ARM101 Leader Arm Assembly](https://www.youtube.com/watch?v=70GuJf2jbYk&t=7m36s)
-    * **Follower Arm Assembly:** [LeRobot SO-ARM101 Follower Arm Assembly](https://www.youtube.com/watch?v=70GuJf2jbYk&t=24m40s)
-* **Wiring Demenstration:** [LeRobot SO-ARM101 Wiring Demenstration](https://www.youtube.com/watch?v=70GuJf2jbYk&t=41m18s)
+* **Assembly Real Demonstration:**
+    * **Leader Arm Assembly:** [LeRobot SO-ARM101 Leader Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk)
+    * **Follower Arm Assembly:** [LeRobot SO-ARM101 Follower Arm Assembly](http://www.youtube.com/watch?v=70GuJf2jbYk)
+* **Wiring Demonstration:** [LeRobot SO-ARM101 Wiring Demenstration](http://www.youtube.com/watch?v=70GuJf2jbYk)
 
 ### 1.4 Joint Midpoint and Limit Settings
-To prevent the servo and for calibration purpose we need to set joint midpoint and Limit Settings for each servo, when you connect all the servos correctly, open your FD1.9.8.5 you should be able to see a page like below.
+
+To prevent the servo and for calibration purpose we need to set joint midpoint and Limit Settings for each servo, when you connect all the servos correctly, open your FD1.9.8.5 you should be able to see a page like below. You have 6 servos listed in the left column.
+<table>
+  <tr>
+    <td style="text-align: center; padding: 10px;">
+      <img width="500" alt="Joint Settings Interface" src="https://github.com/user-attachments/assets/b527ce01-eb1c-4ad0-a350-40169f80a158" />
+      <br>
+      <em>Joint Settings Interface</em>
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img width="300" alt="Servo List" src="https://github.com/user-attachments/assets/bba66224-2204-4acb-9653-be5c5dd85ee0" />
+      <br>
+      <em>Servo List</em>
+    </td>
+  </tr>
+</table>
+
+Then move each joint to maximum/minimum position and then according to the value shown in *cureent position* change your limits.
+For Joints 1-5: Reserve a margin of 20 - 30 from the actual reachable encoder value (address56).
+For Joint 6: Reserve a margin of 10 - 20 from the actual reachable encoder value.
 
 ---
 ## Contributing
