@@ -73,7 +73,7 @@ Once you have your SO-ARM101 kit and components ready, let's dive into the excit
 * **Download the Servo Configuration Tool:** You'll need the `FD1.9.8.5` servo debugging tool [Download FD1.9.8.5 (250425).zip](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip) to configure your servo IDs and parameters.
   <p align="center">
   <img src="https://github.com/user-attachments/assets/c2102d50-6846-43e8-a11e-6e051fc7278d" width="400">
-</p>
+  </p>
 
 * **Setting Up Your Leader&Follower Arm Servos** To ensure your Leader Arm operates correctly, you'll need to match each servo to its specific joint and configure its settings. Different gear ratios mean different torque, so **each servo needs a unique ID corresponding to the joint it will control**.
   <p align="center">
@@ -101,6 +101,10 @@ Now that all your servos are configured, it's time to assemble your robot arm! P
 ### 1.4 Joint Midpoint and Limit Settings
 
 To protect your servos and ensure accurate calibration, you need to configure the joint midpoint and limit settings for each servo. After correctly connecting all servos, the FD1.9.8.5 tool should display a screen similar to the one below, with your 6 servos listed on the left.
+
+<p align="center">
+<img width="400" alt="73ab90affda9715a740352f5acd9868" src="https://github.com/user-attachments/assets/81eb55c3-a764-4348-a965-c2697e4da608" />
+</p>
 
 To set the limits:
 
