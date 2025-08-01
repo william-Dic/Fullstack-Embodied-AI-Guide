@@ -145,10 +145,20 @@ Once you have both arms connected to power and a USB signal line, run the calibr
 3.  Rotated position
 4.  Rest position
 
-| 1. Middle Position | 2. Zero Position | 3. Rotated Position | 4. Rest Position |
-| :---: | :---: | :---: | :---: |
-| ![](https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553) | ![](https://github.com/user-attachments/assets/98e2d24a-9f30-4c49-bc57-66779eb21b94) | ![](https://github.com/user-attachments/assets/3c6235e1-3fac-417e-ad5b-b7a5f4ed0c3a) | ![](https://github.com/user-attachments/assets/b4d399fd-db0b-418c-a111-440adea07a4f) |
-
+<table>
+  <tr>
+    <td align="center">1. Middle Position</td>
+    <td align="center">2. Zero Position</td>
+    <td align="center">3. Rotated Position</td>
+    <td align="center">4. Rest Position</td>
+  </tr>
+  <tr>
+    <td align="center"><img width="256" height="256" alt="Middle Position" src="https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553" /></td>
+    <td align="center"><img width="256" height="256" alt="Zero Position" src="https://github.com/user-attachments/assets/98e2d24a-9f30-4c49-bc57-66779eb21b94" /></td>
+    <td align="center"><img width="256" height="256" alt="Rotated Position" src="https://github.com/user-attachments/assets/3c6235e1-3fac-417e-ad5b-b7a5f4ed0c3a" /></td>
+    <td align="center"><img width="256" height="256" alt="Rest Position" src="https://github.com/user-attachments/assets/b4d399fd-db0b-418c-a111-440adea07a4f" /></td>
+  </tr>
+</table>
 
 #### Launching the Calibration Script
 
