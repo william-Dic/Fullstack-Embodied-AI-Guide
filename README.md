@@ -11,25 +11,39 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 
 ---
 
-## Table of Contents
+### **Table of Contents**
 
-### 1. Hardware
+### **1. Hardware**
 
-* 1.1 [Getting Started: Acquiring Your SO-ARM101](#getting-started-acquiring-your-so-arm101)
-* 1.2 [Setting Up Your Robotic Arm](#setting-up-your-robotic-arm)
-    * [Pre-configuring Servo IDs and Parameters](#pre-configuring-servo-ids-and-parameters)
-    * [Download the Servo Configuration Tool](https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5\(250425\).zip)
-    * [Follow the Configuration Tutorial](https://www.youtube.com/watch?v=70GuJf2jbYk)
-* [Hardware Assembly & Wiring](#hardware-assembly--wiring)
-* [Basic Control & Calibration](#basic-control--calibration)
+  * 1.1 [Getting Started: Acquiring Your SO-ARM101](https://www.google.com/search?q=%23getting-started-acquiring-your-so-arm101)
+      * [Build Your Own](https://github.com/TheRobotStudio/SO-ARM100)
+      * [Purchase a Kit](https://www.google.com/search?q=%23purchase-a-kit)
+  * 1.2 [Setting Up Your Robotic Arm](https://www.google.com/search?q=%23setting-up-your-robotic-arm)
+      * [Download the Servo Configuration Tool](https://www.google.com/search?q=https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5%2528250425%2529.zip)
+      * [Follow the Configuration Tutorial](https://www.youtube.com/watch?v=70GuJf2jbYk)
+      * [Setting Up Your Leader\&Follower Arm Servos](https://www.google.com/search?q=%23setting-up-your-leaderfollower-arm-servos)
+  * 1.3 [Assembling and Wiring Your Robotic Arm](https://www.google.com/search?q=%23assembling-and-wiring-your-robotic-arm)
+      * [Assembly CAD Animation](https://www.bilibili.com/video/BV18gG1z4EZu/?spm_id_from=333.337.search-card.all.click&vd_source=3a694e50ce8cc42bb59f208d9a0785e9)
+      * [Assembly Real Demonstration](http://www.youtube.com/watch?v=70GuJf2jbYk)
+      * [Wiring Demonstration](http://www.youtube.com/watch?v=70GuJf2jbYk&t=41m15s)
+  * 1.4 [Joint Midpoint and Limit Settings](https://www.google.com/search?q=%23joint-midpoint-and-limit-settings)
+  * 1.5 [Joint Calibration](https://www.google.com/search?q=%23joint-calibration)
+  * 1.6 [Teleoperation](https://www.google.com/search?q=%23teleoperation)
+  * 1.7 [Camera Setup](https://www.google.com/search?q=%23camera-setup)
+      * [Gripper Camera Mount](https://www.google.com/search?q=%23gripper-camera-mount)
+      * [Fixed Environment Camera](https://www.google.com/search?q=%23fixed-environment-camera)
 
-### 2. Software
+### **2. Software**
 
-* 2.1 [Software Environment Setup](#software-environment-setup)
-* [Introduction to Diffusion Policy](#introduction-to-diffusion-policy)
-* [Implementing Diffusion Policy](#implementing-diffusion-policy)
-* [Troubleshooting & Advanced Tips](#troubleshooting--advanced-tips)
-
+  * 2.1 [Camera Configuration and Data Recording](https://www.google.com/search?q=%23camera-configuration-and-data-recording)
+      * [Identifying Camera IDs](https://www.google.com/search?q=%23identifying-camera-ids)
+      * [Camera Resolution and FOV](https://www.google.com/search?q=%23camera-resolution-and-fov)
+      * [Camera Encoding Stream Settings](https://www.google.com/search?q=%23camera-encoding-stream-settings)
+      * [Local Recording](https://www.google.com/search?q=%23local-recording)
+  * 2.2 [Training Configuration](https://www.google.com/search?q=%23training-configuration)
+  * 2.3 [Real-Time Inference Test](https://www.google.com/search?q=%23real-time-inference-test)
+      * [Running the Inference Test](https://www.google.com/search?q=%23running-the-inference-test)
+      * [Common Issues During Inference](https://www.google.com/search?q=%23common-issues-during-inference)
 ---
 ## 1. Hardware
 
