@@ -11,7 +11,7 @@
   <div>
     <p><b>Video</b></p>
     <video width="300" controls>
-      <source src="https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947" type="video/mp4">
+      <source src="https://github.com/user-attachments/assets/eee0b0ec-5a82-479c-b1b9-11daff809053" type="video/mp4">
     </video>
   </div>
 </div>
