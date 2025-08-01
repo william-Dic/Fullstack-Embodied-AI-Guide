@@ -215,7 +215,7 @@ After ensuring both arms are connected to power and the USB signal cable, run th
 
 Before starting teleoperation, it is crucial to check that your calibration is accurate, especially if this is your first time assembling the robot.
 
-  * **Synchronization Check:** Refer to the calibration check video (Note: the reference video is unavailable) to verify if joints \#2, \#3, and \#6 are synchronized with the Leader arm when in the `rest` position. If there is a significant difference, the Follower arm may still have high torque, causing the servo motors to heat up and overheat.
+  * **Synchronization Check:** Verify if joints \#2, \#3, and \#6 are synchronized with the Leader arm when in the `rest` position. If there is a significant difference, the Follower arm may still have high torque, causing the servo motors to heat up and overheat.
   * **Directional Check:** Additionally, check that each joint of the Follower arm follows correctly when the Leader arm's joints move within their maximum and minimum ranges. If you find that the movement directions are opposite, it means the pose during calibration was inaccurate, and a recalibration is required.
   * **Safety Warning:** If the Leader and Follower arms move in opposite directions and cause a joint to jam, immediately unplug the power to that robotic arm to prevent the motor from burning out.
 
