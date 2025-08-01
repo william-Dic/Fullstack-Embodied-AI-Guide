@@ -259,6 +259,8 @@ This content will cover the installation of both the gripper camera mount and th
 
 ### **1.7 Camera Setup**
 
+Note: The camera setup is crucial for model performance. Your setup should ideally include a hand-eye camera (mounted on the gripper) and a fixed environment camera. If you only have one camera, the outcome of the model may not be as good.
+
 #### Gripper Camera Mount
 
 <table>
