@@ -163,9 +163,8 @@ Once you have both arms connected to power and a USB signal line, run the calibr
     python lerobot\scripts\control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=calibrate --control.arms='[\"main_follower\"]'
     ```
 
-Here is the content for the "Leader Arm Calibration" section formatted in a standard GitHub README style.
-
 -----
+
 
 ### **Manually Calibrating the Leader Arm**
 
@@ -207,6 +206,50 @@ After ensuring both arms are connected to power and the USB signal cable, run th
     ```bash
     python lerobot\scripts\control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=calibrate --control.arms='[\"main_leader\"]'
     ```
+    
+-----
+
+### **1.6 Teleoperation**
+
+#### Calibration Check Before Teleoperation
+
+Before starting teleoperation, it is crucial to check that your calibration is accurate, especially if this is your first time assembling the robot.
+
+  * **Synchronization Check:** Refer to the calibration check video (Note: the reference video is unavailable) to verify if joints \#2, \#3, and \#6 are synchronized with the Leader arm when in the `rest` position. If there is a significant difference, the Follower arm may still have high torque, causing the servo motors to heat up and overheat.
+  * **Directional Check:** Additionally, check that each joint of the Follower arm follows correctly when the Leader arm's joints move within their maximum and minimum ranges. If you find that the movement directions are opposite, it means the pose during calibration was inaccurate, and a recalibration is required.
+  * **Safety Warning:** If the Leader and Follower arms move in opposite directions and cause a joint to jam, immediately unplug the power to that robotic arm to prevent the motor from burning out.
+
+#### Official Teleoperation Teaching
+
+Before performing a teleoperation session, please ensure that both arms have a consistent pose, preferably in the `rest` position, to avoid sudden, large movements that could cause damage.
+
+To begin, run the following command:
+
+```bash
+python lerobot/scripts/control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=teleoperate
+```
+
+When you see a log similar to the one below, it indicates that the status of the Leader and Follower arms has been successfully acquired. You can now move the Leader arm to synchronously control the Follower arm.
+
+```
+INFO 2025-05-09 21:16:01 rol_utils.py:82 dt: 3.38 (296.0hz) dtRlead: 1.45 (690.7hz) dtWfoll: 0.32 (3097.9hz) dtRfoll: 1.59 (630.6hz)
+INFO 2025-05-09 21:16:01 rol_utils.py:82 dt: 3.23 (309.6hz) dtRlead: 1.49 (670.5hz) dtWfoll: 0.16 (6447.5hz) dtRfoll: 1.56 (639.5hz)
+INFO 2025-05-09 21:16:01 rol_utils.py:82 dt: 3.17 (315.7hz) dtRlead: 1.41 (710.3hz) dtWfoll: 0.22 (4470.3hz) dtRfoll: 1.52 (658.8hz)
+INFO 2025-05-09 21:16:01 rol_utils.py:82 dt: 3.32 (301.2hz) dtRlead: 1.49 (670.5hz) dtWfoll: 0.26 (3825.6hz) dtRfoll: 1.55 (645.8hz)
+INFO 2025-05-09 21:16:01 rol_utils.py:82 dt: 3.66 (273.2hz) dtRlead: 1.72 (580.8hz) dtWfoll: 0.36 (2770.1hz) dtRfoll: 1.55 (644.3hz)
+```
+
+**Note:** Due to the presence of the Leader arm's handle, the Follower arm may suddenly raise its head at the beginning when starting from the `rest` position.
+
+#### Troubleshooting
+
+**If you encounter the following error message:**
+
+```
+Missing calibration file ".cache/calibration/so101/main_follower.json"
+```
+
+This indicates that the calibration was not successful, or you have not placed the calibration file for the assembled product in the correct location. For users who purchased an assembled product, do not press the Enter key, as this will reset the robot arm's center position and invalidate the factory calibration parameters.
 
 ## License
 
