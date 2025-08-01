@@ -7,6 +7,10 @@
 ## **Ready to launch into robotics?** 🤖🚀
 This guide is your **ultimate starting point** for bringing **embodied AI** to **life/Your Home**🏠! We'll walk you through everything: **building your robot** from scratch to **training a robotic model** and equipping it with **cutting-edge AI control techniques** like **Diffusion Policy**, **ACT** and **Visual-Language-Action Model(VLA)**. 🧠✨
 
+
+https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947
+
+
 Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
 
 ---
