@@ -1,18 +1,17 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <div>
-    <p><b>Image</b></p>
-    <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
-  </div>
-  
-  <div>
-    <p><b>Video</b></p>
-    <video width="300" controls poster="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e">
-      <source src="https://github.com/user-attachments/assets/eee0b0ec-5a82-479c-b1b9-11daff809053" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+  <div>
+    <p><b>Image</b></p>
+    <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+  </div>
+  
+  <div>
+    <p><b>Video</b></p>
+    <video width="300" controls>
+      <source src="https://github.com/user-attachments/assets/eee0b0ec-5a82-479c-b1b9-11daff809053" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 ## **Ready to launch into robotics?** 🤖🚀
