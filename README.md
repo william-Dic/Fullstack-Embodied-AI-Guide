@@ -419,7 +419,7 @@ Next, you need to modify the configuration in `lerobot/common/robot_devices/robo
 
 #### Camera Encoding Stream Settings
 
-To support a higher frame rate for cameras connected to the same hub, you need to modify `lerobot\common\robot_devices\cameras\opencv.py`. After setting the resolution width and height, add the following line to set the MJPG stream. The cameras included with this product can only achieve 30fps at 640x480 in MJPG stream mode.
+To support a higher frame rate for cameras connected to the same hub, you need to modify `lerobot\common\robot_devices\cameras\opencv.py`. After setting the resolution width and height, add the following line to set the MJPG stream.
 
 ```python
 self.camera.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'))
