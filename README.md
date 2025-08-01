@@ -10,7 +10,7 @@ This guide is your **ultimate starting point** for bringing **embodied AI** to *
 
 Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun\!** 🌟🛠️
 
-By the end of this guide, you will be able to \<a href="[https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/)" class="text-blue-600 hover:underline" target="\_blank"\>**Create Your Own Robotic Agent and Say hi to Pax\! 🤖🚀**\</a\>
+By the end of this guide, you will be able to **Create Your Own Robotic Agent!** You can also [**Say hi to Pax**](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/) to see an example of what's possible! 🤖🚀
 
 ---
 
