@@ -12,7 +12,6 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 ---
 
 <div class="flex flex-col lg:flex-row gap-4 p-4 lg:p-8 bg-gray-100 rounded-lg shadow-inner">
-
   <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
     <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">1. Hardware</h3>
     <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
@@ -66,12 +65,9 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
           <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
         </ul>
       </li>
+      <li><a href="#pax" class="text-blue-600 hover:underline">Say hi to Pax! 🤖🚀</a></li>
     </ul>
   </div>
-
-</div>
-<div class="flex justify-center mt-6">
-  <p class="text-lg font-semibold text-gray-800 dark:text-white">And, of course, a big hi to Pax! 🤖🚀</p>
 </div>
 
 ---
