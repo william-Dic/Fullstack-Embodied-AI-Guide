@@ -186,17 +186,13 @@ After ensuring both arms are connected to power and the USB signal cable, run th
     <td align="center">4. Rest Position</td>
   </tr>
   <tr>
-    <td align="center"><img width="256" height="256" alt="Middle Position" src="https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553" /></td>
-    <td align="center"><img width="256" height="256" alt="Zero Position" src="https://github.com/user-attachments/assets/98e2d24a-9f30-4c49-bc57-66779eb21b94" /></td>
-    <td align="center"><img width="256" height="256" alt="Rotated Position" src="https://github.com/user-attachments/assets/3c6235e1-3fac-417e-ad5b-b7a5f4ed0c3a" /></td>
-    <td align="center"><img width="256" height="256" alt="Rest Position" src="https://github.com/user-attachments/assets/b4d399fd-db0b-418c-a111-440adea07a4f" /></td>
+    <td align="center"><img width="256" height="256" alt="Middle Position" src="https://github.com/user-attachments/assets/cd43cd58-e8a2-4f94-bd07-3a6ca005c1fd" /></td>
+    <td align="center"><img width="256" height="256" alt="Zero Position" src="https://github.com/user-attachments/assets/89f2d3bb-1289-4510-931b-e5a16bdbaeae" /></td>
+    <td align="center"><img width="256" height="256" alt="Rotated Position" src="https://github.com/user-attachments/assets/ae2b2338-909b-43bf-8726-ac7de6cdec93" /></td>
+    <td align="center"><img width="256" height="256" alt="Rest Position" src="https://github.com/user-attachments/assets/e7ff33e4-0591-491a-a80d-897ba511c388" /></td>
   </tr>
 </table>
 
-<img width="339" height="220" alt="image" src="https://github.com/user-attachments/assets/cd43cd58-e8a2-4f94-bd07-3a6ca005c1fd" />
-<img width="337" height="160" alt="image" src="https://github.com/user-attachments/assets/89f2d3bb-1289-4510-931b-e5a16bdbaeae" />
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ae2b2338-909b-43bf-8726-ac7de6cdec93" />
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e7ff33e4-0591-491a-a80d-897ba511c388" />
 
 #### Launching the Calibration Script
 
