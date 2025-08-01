@@ -15,9 +15,9 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 
 ### **1. Hardware**
 
-  * 1.1 [Getting Started: Acquiring Your SO-ARM101](https://www.google.com/search?q=%23getting-started-acquiring-your-so-arm101)
-      * [Build Your Own](https://github.com/TheRobotStudio/SO-ARM100)
-      * [Purchase a Kit](https://www.google.com/search?q=%23purchase-a-kit)
+  * 1.1 [Getting Started: Acquiring Your SO-ARM101](#getting-started-acquiring-your-so-arm101)
+      * [Build Your Own](#build-your-own)
+      * [Purchase a Kit](#purchase-a-kit)
   * 1.2 [Setting Up Your Robotic Arm](https://www.google.com/search?q=%23setting-up-your-robotic-arm)
       * [Download the Servo Configuration Tool](https://www.google.com/search?q=https://gitee.com/ftservo/fddebug/blob/master/FD1.9.8.5%2528250425%2529.zip)
       * [Follow the Configuration Tutorial](https://www.youtube.com/watch?v=70GuJf2jbYk)
@@ -44,6 +44,7 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
   * 2.3 [Real-Time Inference Test](https://www.google.com/search?q=%23real-time-inference-test)
       * [Running the Inference Test](https://www.google.com/search?q=%23running-the-inference-test)
       * [Common Issues During Inference](https://www.google.com/search?q=%23common-issues-during-inference)
+
 ---
 ## 1. Hardware
 
