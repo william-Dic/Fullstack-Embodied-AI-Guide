@@ -1,5 +1,5 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
-
+TODO:1.add the instruction of how to create environments 2. upload the ckpt and code
 <div align="center">
   <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </div>
