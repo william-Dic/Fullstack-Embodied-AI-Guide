@@ -119,8 +119,41 @@ For a detailed demonstration, please refer to this video: [LeRobot SO-ARM101 Joi
 
 ---
 
-### 1.5 Joint Calibration
+### **1.5 Joint Calibration**
 
+After setting up your servo limits, the next crucial step is to manually calibrate your **Follower** arm. This process aligns the robot's physical position with its software coordinates, which is essential for accurate movement. **Precise calibration is critical—an inaccurate calibration can damage your motors.**
+
+#### Manually Calibrating the Follower Arm
+
+Once you have both arms connected to power and a USB signal line, run the calibration script below. After running the command, position the Follower arm in the following sequence.
+
+**Important:** The accuracy of your physical poses directly impacts the calibration results. Pay close attention to the following details:
+
+  * For the **"Rotated position,"** the gripper should be completely open and rotated to the right.
+  * All other angles should be either parallel or at a 90-degree angle.
+
+**Calibration Sequence:**
+
+1.  Middle position
+2.  Zero position
+3.  Rotated position
+4.  Rest position
+
+(Here should be a table of 4 images showing each position)
+
+#### Launching the Calibration Script
+
+  * **For Linux/macOS:**
+
+    ```bash
+    python lerobot/scripts/control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=calibrate --control.arms='["main_follower"]'
+    ```
+
+  * **For Windows:**
+
+    ```bash
+    python lerobot\scripts\control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=calibrate --control.arms='[\"main_follower\"]'
+    ```
 
 ## Contributing
 
