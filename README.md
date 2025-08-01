@@ -628,12 +628,9 @@ To test the trained model in real-time, run one of the following commands. This 
 
 Congratulations! You've taken the first major step into the world of embodied AI by creating your very own robot arm. This isn't just a collection of parts—it's the foundation for a future filled with possibility. The journey is just beginning, and I'll be here to guide you as we add the power of language to your robot. For now, take a moment to admire what you've built. Say hi to your new robotic partner, and of course, a big hi to Pax! 🤖🚀
 
-<details>
-  <summary align="center">Click to watch the video</summary>
-  <p align="center">
-    <video src="https://github.com/user-attachments/assets/04f7807b-5fd9-4979-847a-21280b31237f" controls></video>
-  </p>
-</details>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## License
 
