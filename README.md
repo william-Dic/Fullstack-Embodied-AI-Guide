@@ -251,6 +251,76 @@ Missing calibration file ".cache/calibration/so101/main_follower.json"
 
 This indicates that the calibration was not successful, or you have not placed the calibration file for the assembled product in the correct location. For users who purchased an assembled product, do not press the Enter key, as this will reset the robot arm's center position and invalidate the factory calibration parameters.
 
+Based on the material you provided, I have translated the instructions for setting up the cameras and structured them as a new section for your guide.
+
+This content will cover the installation of both the gripper camera mount and the fixed environment camera.
+
+---
+
+### **1.7 Camera Setup**
+
+#### Gripper Camera Mount
+
+<table>
+  <tr>
+    <td>
+      1. <b>Align the Mount:</b> Align the two screw holes on the camera mount with the corresponding holes on the fixed gripper jaw. (Remember to have the M3 nuts pre-embedded inside the fixed gripper jaw during assembly.)
+    </td>
+    <td align="center">
+      <img width="450" alt="Align the Mount" src="https://github.com/user-attachments/assets/edd0a0aa-dfe7-4dbb-96ae-3cdf318fc1cb" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2. <b>Secure the Mount:</b> Once aligned, use two M3 x 10 screws to fasten the mount in place.
+    </td>
+    <td align="center">
+      <img width="450" alt="Secure the Mount" src="https://github.com/user-attachments/assets/062b63a8-7cc4-48de-85b3-37ae3f0264a0" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      3. <b>Connect the Cable:</b> Plug the data cable connector into the back of the mount, paying attention to the orientation of the anti-fooling slot to ensure it connects correctly.
+    </td>
+    <td align="center">
+      <img width="450" alt="Connect the Cable" src="https://github.com/user-attachments/assets/cee6f5b1-b98f-40af-892a-15e9c1a18dd7" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      4. <b>Connect to Computer:</b> Plug the other end of the data cable (USB Type A) into a USB port on your computer. You can also use a USB Hub if necessary.
+    </td>
+    <td align="center">
+      <img width="450" alt="Connect to Computer" src="https://github.com/user-attachments/assets/fb6ce1a7-ebb2-4521-822b-cc1ce7033d02" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      5. <b>Cable Management:</b> Use zip ties to secure the USB cable to the robotic arm to keep it tidy and out of the way.
+    </td>
+    <td align="center">
+      <img width="450" alt="Cable Management" src="https://github.com/user-attachments/assets/5ccb213b-9550-4a4e-9381-cd74405f6ecf" />
+    </td>
+  </tr>
+</table>
+
+
+#### Fixed Environment Camera
+
+**Mounting the Clamp**
+
+1.  **Unscrew the Nut:** Remove the nut from the back of the clamp.
+2.  **Slide the Nut:** First, slide the nut over the universal ball and into the support column at the end of the bracket.
+3.  **Attach the Clamp:** Place the tail of the clamp over the universal ball.
+4.  **Tighten:** Thread the nut back onto the universal ball and tighten it from the back to secure the clamp.
+5.  **Attach the Camera Stand:** Clamp the camera tablet stand onto the clamp.
+
+**Camera Stand Installation**
+
+1.  **Cable Management:** Use zip ties to secure the camera's USB cable to the vertical stand post.
+2.  **Final Installation:** Insert the stand into the base.
+
+
 ## License
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
