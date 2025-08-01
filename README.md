@@ -5,9 +5,12 @@
 </div>
 
 ## **Ready to launch into robotics?** 🤖🚀
-This guide is your **ultimate starting point** for bringing **embodied AI** to **life**🏠! We'll walk you through everything: **building your robot** from scratch to **training a robotic model** and equipping it with **cutting-edge AI control techniques** like **Diffusion Policy**, **ACT** and **Visual-Language-Action Model(VLA)**. 🧠✨
 
-Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
+This guide is your **ultimate starting point** for bringing **embodied AI** to **life**🏠\! We'll walk you through everything: **building your robot** from scratch to **training a robotic model** and equipping it with **cutting-edge AI control techniques** like **Diffusion Policy**, **ACT** and **Visual-Language-Action Model(VLA)**. 🧠✨
+
+Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun\!** 🌟🛠️
+
+By the end of this guide, you will be able to \<a href="[https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/)" class="text-blue-600 hover:underline" target="\_blank"\>**Create Your Own Robotic Agent and Say hi to Pax\! 🤖🚀**\</a\>
 
 ---
 
@@ -65,7 +68,6 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
           <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
         </ul>
       </li>
-      <li>2.4 <a href="https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/" class="text-blue-600 hover:underline" target="_blank">Create Your Own Robotic Agent and Say hi to Pax! 🤖🚀</a></li>
     </ul>
   </div>
 </div>
