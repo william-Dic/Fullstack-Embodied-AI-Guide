@@ -147,9 +147,13 @@ Once you have both arms connected to power and a USB signal line, run the calibr
 
 | 1. Middle Position | 2. Zero Position | 3. Rotated Position | 4. Rest Position |
 | :---: | :---: | :---: | :---: |
-| \<img width="371" height="276" alt="image" src="[https://github.com/user-attachments/assets/daba9a9a-0cae-4d26-b75b-a5c1d21165ea](https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf601092455395f1327a-2a49-47cd-9f99-bf6010924553)" /\> | \<img width="372" height="208" alt="image" src="[https://github.com/user-attachments/assets/1c1353d9-7e9d-41b9-8735-edf026b6158d](https://github.com/user-attachments/assets/1c1353d9-7e9d-41b9-8735-edf026b6158d)" /\> | \<img width="960" height="1280" alt="image" src="[https://github.com/user-attachments/assets/5a4b9e33-a560-4bcf-820b-b41a53b5758e](https://github.com/user-attachments/assets/5a4b9e33-a560-4bcf-820b-b41a53b5758e)" /\> | \<img width="960" height="1280" alt="image" src="[https://github.com/user-attachments/assets/b6719ac1-41a3-4aae-9ffd-805179c956aa](https://github.com/user-attachments/assets/b6719ac1-41a3-4aae-9ffd-805179c956aa)" /\> |
+| \<img width="371" height="276" alt="image" src="https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553(https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553)" /\> | \<img width="372" height="208" alt="image" src="[https://github.com/user-attachments/assets/1c1353d9-7e9d-41b9-8735-edf026b6158d](https://github.com/user-attachments/assets/1c1353d9-7e9d-41b9-8735-edf026b6158d)" /\> | \<img width="960" height="1280" alt="image" src="[https://github.com/user-attachments/assets/5a4b9e33-a560-4bcf-820b-b41a53b5758e](https://github.com/user-attachments/assets/5a4b9e33-a560-4bcf-820b-b41a53b5758e)" /\> | \<img width="960" height="1280" alt="image" src="[https://github.com/user-attachments/assets/b6719ac1-41a3-4aae-9ffd-805179c956aa](https://github.com/user-attachments/assets/b6719ac1-41a3-4aae-9ffd-805179c956aa)" /\> |
 
 <img width="371" height="276" alt="image" src="https://github.com/user-attachments/assets/95f1327a-2a49-47cd-9f99-bf6010924553" />
+<img width="372" height="208" alt="image" src="https://github.com/user-attachments/assets/98e2d24a-9f30-4c49-bc57-66779eb21b94" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/3c6235e1-3fac-417e-ad5b-b7a5f4ed0c3a" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b4d399fd-db0b-418c-a111-440adea07a4f" />
+
 
 #### Launching the Calibration Script
 
