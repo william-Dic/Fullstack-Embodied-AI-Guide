@@ -34,7 +34,7 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
         <ul class="ml-4 list-disc list-inside space-y-1">
           <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly CAD Animation</a></li>
           <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly Real Demonstration</a></li>
-          <li><a href="#assembling-and-wiring-your-robotic-arm">Wiring Demonstration</a></li>
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Wiring Demonstration</a></li>
         </ul>
       </li>
       <li>1.4 <a href="#joint-midpoint-and-limit-settings" class="text-blue-600 hover:underline">Joint Midpoint and Limit Settings</a></li>
