@@ -493,6 +493,101 @@ To continue a previous recording, you can add `--control.resume=true` to the com
 
 It is recommended to first collect about 10 episodes to test the entire process. For better results, you should collect more episodes (e.g., ≥50).
 
+### **2.2 Training Configuration**
+
+For training your model, it is recommended for beginners to use **ACT (Action Chunking Transformers)**, which is specified by `--policy.type=act`.
+
+Other available policies include:
+
+  * `act`: Action Chunking Transformers
+  * `diffusion`: Diffusion Policy
+  * `tdmpc`: TDMPC Policy
+  * `vqbet`: VQ-BeT
+  * `pi0`: A Vision-Language-Action Flow Model for General Robot Control
+  * `pi0fast`
+
+For local training, add the option `--wandb.enable=false` to disable Weights & Biases logging.
+
+To start training, run the following command:
+
+```bash
+python lerobot/scripts/train.py \
+  --dataset.repo_id=${HF_USER}/so100_test \
+  --policy.type=act \
+  --output_dir=outputs/train/act_so100_test \
+  --job_name=act_so101_test \
+  --policy.device=cuda \
+  --wandb.enable=false
+```
+
+When logs similar to the following appear, it indicates that training has started:
+
+```
+INFO 2025-03-01 21:03:07 ts/train.py:232 step:100 smpl:800 ep:3 epch:0.67 loss:4.547 grdn:131.117 lr:1.0e-05 updt s:0.297 data s:0.000
+INFO 2025-03-01 21:03:13 ts/train.py:232 step:120 smpl:960 ep:4 epch:0.80 loss:4.117 grdn:115.125 lr:1.0e-05 updt s:0.296 data s:0.000
+INFO 2025-03-01 21:03:18 ts/train.py:232 step:140 smpl:1K ep:5 epch:0.93 1oss:3.772 grdn:106.575 lr:1.0e-05 updt s:0.296 data s:0.000
+```
+
+**Note:** For 10 sets of data, training with an RTX 3090 graphics card takes approximately 2 hours.
+
+### **2.3 Real-Time Inference Test**
+
+#### Running the Inference Test
+
+To test the trained model in real-time, run one of the following commands. This will use the trained policy to control the robotic arm.
+
+  * **Ubuntu/MacOS Command:**
+    ```bash
+    python lerobot/scripts/control_robot.py \
+      --robot.type=so101 \
+      --control.type=record \
+      --control.fps=30 \
+      --control.single_task="Grasp a lego block and put it in the bin." \
+      --control.repo_id=${HF_USER}/eval_act_so101_test \
+      --control.tags='["tutorial"]' \
+      --control.warmup_time_s=5 \
+      --control.episode_time_s=30 \
+      --control.reset_time_s=30 \
+      --control.num_episodes=10 \
+      --control.push_to_hub=false \
+      --control.policy.path=outputs/train/act_so101_test/checkpoints/last/pretrained_model
+    ```
+  * **Windows Powershell Command:**
+    ```powershell
+    python lerobot/scripts/control_robot.py `
+      --robot.type=so101 `
+      --control.type=record `
+      --control.fps=30 `
+      --control.single_task="Grasp a lego block and put it in the bin." `
+      --control.repo_id=${HF_USER}/eval_act_so101_test `
+      --control.tags='[\"tutorial\"]' `
+      --control.warmup_time_s=5 `
+      --control.episode_time_s=30 `
+      --control.reset_time_s=30 `
+      --control.num_episodes=10 `
+      --control.push_to_hub=false `
+      --control.policy.path=outputs/train/act_so101_test/checkpoints/last/pretrained_model
+    ```
+
+#### Parameter Explanations
+
+| Parameter | Explanation | Suggested Settings |
+| :--- | :--- | :--- |
+| `warmup_time_s` | The time, in seconds, from when the program starts until it begins recording valid data. | If your preparation is quick, you can set it shorter (e.g., 2 seconds). |
+| `episode_time_s` | The duration of the entire task, in seconds. | |
+| `reset_time_s` | The time, in seconds, required to reset the scene to its initial state after completing the task. | If the scene reset is fast, you can set it shorter (e.g., 5 seconds). If the scene is complex and involves resetting multiple items, a longer time is needed. |
+| `push_to_hub=false` | Do not upload data to Hugging Face. | |
+| `control.policy.path` | The path to the trained policy model. | |
+
+#### Common Issues During Inference
+
+  * **Robotic Arm Shaking:**
+      * Adjust the `D_Coefficient` parameter in the `set_so100_robot_preset()` function within `lerobot/common/robot_devices/robots/manipulator.py`. Try reducing its value (e.g., to 0).
+      * Check the servo power supply (7.4V or 12V for the Follower arm should be at least 2A).
+  * **Motion Offset:**
+      * Recalibrate the joint zero points.
+  * **Training Failure:**
+      * Reduce the `batch_size` or increase the diversity of your dataset.
 
 ## License
 
