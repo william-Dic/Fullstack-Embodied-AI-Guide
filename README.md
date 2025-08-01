@@ -140,11 +140,6 @@ Once you have both arms connected to power and a USB signal line, run the calibr
 
 **Calibration Sequence:**
 
-1.  Middle position
-2.  Zero position
-3.  Rotated position
-4.  Rest position
-
 <table>
   <tr>
     <td align="center">1. Middle Position</td>
