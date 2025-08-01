@@ -626,7 +626,7 @@ To test the trained model in real-time, run one of the following commands. This 
   * **Training Failure:**
       * Reduce the `batch_size` or increase the diversity of your dataset.
 
-Congratulations! You've taken the first major step into the world of embodied AI by creating your very own robot arm. This isn't just a collection of parts—it's the foundation for a future filled with possibility. The journey is just beginning, and I'll be here to guide you as we add the power of language to your robot. For now, take a moment to admire what you've built. Say hi to your new robotic partner, and of course, [a big hi to mine, Pax! 🤖🚀](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097)
+Congratulations! You've taken the first major step into the world of embodied AI by creating your very own robot arm. This isn't just a collection of parts—it's the foundation for a future filled with possibility. The journey is just beginning, and I'll be here to guide you as we add the power of language to your robot. For now, take a moment to admire what you've built. Say hi to your new robotic partner, and of course, [a big hi to mine, Pax!]🤖🚀(https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097)
 
 
 
