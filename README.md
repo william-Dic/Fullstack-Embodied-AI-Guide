@@ -1,14 +1,19 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <!-- Image -->
   <div>
     <p><b>Image</b></p>
     <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
   </div>
   
+  <!-- Video -->
   <div>
     <p><b>Video</b></p>
-    <img src="https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947" alt="Robotic Arm Demonstration" width="300" />
+    <video width="300" controls>
+      <source src="https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
