@@ -291,17 +291,10 @@ This content will cover the installation of both the gripper camera mount and th
       4. <b>Connect to Computer:</b> Plug the other end of the data cable (USB Type A) into a USB port on your computer. You can also use a USB Hub if necessary.
     </td>
     <td align="center">
-      <img width="450" alt="Connect to Computer" src="https://github.com/user-attachments/assets/fb6ce1a7-ebb2-4521-822b-cc1ce7033d02" />
+      <img width="450" alt="Connect to Computer" src="https://github.com/user-attachments/assets/5ccb213b-9550-4a4e-9381-cd74405f6ecf" />
     </td>
   </tr>
   <tr>
-    <td>
-      5. <b>Cable Management:</b> Use zip ties to secure the USB cable to the robotic arm to keep it tidy and out of the way.
-    </td>
-    <td align="center">
-      <img width="450" alt="Cable Management" src="https://github.com/user-attachments/assets/5ccb213b-9550-4a4e-9381-cd74405f6ecf" />
-    </td>
-  </tr>
 </table>
 
 
