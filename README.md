@@ -1,14 +1,20 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
 
-<p align="center">
-  <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
-</p>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <div>
+    <p><b>Image</b></p>
+    <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
+  </div>
+  
+  <div>
+    <p><b>Video</b></p>
+    <img src="https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947" alt="Robotic Arm Demonstration" width="300" />
+  </div>
+</div>
 
 ## **Ready to launch into robotics?** 🤖🚀
 This guide is your **ultimate starting point** for bringing **embodied AI** to **life/Your Home**🏠! We'll walk you through everything: **building your robot** from scratch to **training a robotic model** and equipping it with **cutting-edge AI control techniques** like **Diffusion Policy**, **ACT** and **Visual-Language-Action Model(VLA)**. 🧠✨
 
-
-https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947
 
 
 Whether you're a beginner curious about robots or eager to explore advanced AI, get ready for a **hands-on learning adventure** that makes complex concepts **simple and fun!** 🌟🛠️
