@@ -300,18 +300,73 @@ This content will cover the installation of both the gripper camera mount and th
 
 #### Fixed Environment Camera
 
-**Mounting the Clamp**
+<p>
+  <b>Mounting the Clamp</b>
+</p>
+<table>
+  <tr>
+    <td>
+      1. <b>Unscrew the Nut:</b> Remove the nut from the back of the clamp.
+    </td>
+    <td align="center">
+      <img width="450" alt="Unscrew the Nut" src="https://github.com/user-attachments/assets/ab2a3806-7811-43c7-bfe9-4f21a365492c" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2. <b>Slide the Nut:</b> First, slide the nut over the universal ball and into the support column at the end of the bracket.
+    </td>
+    <td align="center">
+      <img width="450" alt="Slide the Nut" src="https://github.com/user-attachments/assets/219f91a5-8d85-49a0-9e38-68a95415d712" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      3. <b>Attach the Clamp:</b> Place the tail of the clamp over the universal ball.
+    </td>
+    <td align="center">
+      <img width="450" alt="Attach the Clamp" src="https://github.com/user-attachments/assets/0a14bcfd-18bc-47be-947d-33e7b798e0ea" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      4. <b>Tighten:</b> Thread the nut back onto the universal ball and tighten it from the back to secure the clamp.
+    </td>
+    <td align="center">
+      <img width="450" alt="Tighten" src="https://github.com/user-attachments/assets/4ca206eb-0ba2-4015-a5e0-2eed4509dd77" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      5. <b>Attach the Camera Stand:</b> Clamp the camera tablet stand onto the clamp.
+    </td>
+    <td align="center">
+      <img width="450" alt="Attach the Camera Stand" src="https://github.com/user-attachments/assets/d663a4fd-1db5-4024-83f2-b9a0f24efa73" />
+    </td>
+  </tr>
+</table>
 
-1.  **Unscrew the Nut:** Remove the nut from the back of the clamp.
-2.  **Slide the Nut:** First, slide the nut over the universal ball and into the support column at the end of the bracket.
-3.  **Attach the Clamp:** Place the tail of the clamp over the universal ball.
-4.  **Tighten:** Thread the nut back onto the universal ball and tighten it from the back to secure the clamp.
-5.  **Attach the Camera Stand:** Clamp the camera tablet stand onto the clamp.
-
-**Camera Stand Installation**
-
-1.  **Cable Management:** Use zip ties to secure the camera's USB cable to the vertical stand post.
-2.  **Final Installation:** Insert the stand into the base.
+<p>
+  <b>Camera Stand Installation</b>
+</p>
+<table>
+  <tr>
+    <td>
+      1. <b>Cable Management:</b> Use zip ties to secure the camera's USB cable to the vertical stand post.
+    </td>
+    <td align="center">
+      <img width="450" alt="Cable Management" src="https://github.com/user-attachments/assets/855177db-2c7b-4776-8d92-fcb7062c352b" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2. <b>Final Installation:</b> Insert the stand into the base.
+    </td>
+    <td align="center">
+      <img width="450" alt="Final Installation" src="https://github.com/user-attachments/assets/0b3715e9-dd99-4d1e-87ec-f60dc2061ab6" />
+    </td>
+  </tr>
+</table>
 
 
 ## License
