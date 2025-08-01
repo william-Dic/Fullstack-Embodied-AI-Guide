@@ -367,6 +367,132 @@ Note: The camera setup is crucial for model performance. Your setup should ideal
   </tr>
 </table>
 
+-----
+
+### **2. Software**
+
+### **2.1 Camera Configuration and Data Recording**
+
+#### Identifying Camera IDs
+
+Before you start recording data, you need to confirm the serial numbers of your connected cameras. You can use the `benchmarks/videoio/capture_camera_feed.py` script and modify the `VideoCapture()` function's index to confirm the correspondence between the camera and its serial number.
+
+Alternatively, you can directly run `lerobot/common/robot_devices/cameras/opencv.py`. This script will list all detectable cameras, capture some images, and save them to the `outputs/images_from_opencv_cameras` folder. You can use these images to determine which physical camera corresponds to which device ID.
+
+**File Naming and Camera ID Correspondence**
+
+| Filename | Corresponding Camera ID |
+| :--- | :--- |
+| `camera_00_frame_000000.png` | 0 |
+| `camera_01_frame_000001.png` | 1 |
+| `camera_02_frame_000002.png` | 2 |
+| ... | ... |
+| `camera_04_frame_000002.png` | 4 |
+
+Record the correspondence between your cameras and their serial numbers. For example (this is just an example, your actual setup may vary):
+
+  * `1` -- Hand-eye Camera (`handeye`)
+  * `2` -- Fixed Environment Camera (`fixed`)
+
+**Note:** The serial number correspondence may change after unplugging the cameras or restarting the computer.
+
+Next, you need to modify the configuration in `lerobot/common/robot_devices/robots/configs.py`. Be sure to only edit the `class So101RobotConfig` and not any other similar classes. 
+
+<table>
+  <tr>
+    <td>
+      Be sure to only edit the <code>class So101RobotConfig</code> and not any other similar classes.
+    </td>
+    <td align="center">
+      <img width="450" alt="Configuration file" src="https://github.com/user-attachments/assets/be505b5a-b286-4a3c-a402-5c582ed3c17e" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      If you have a third camera, you can add another camera entry here.
+    </td>
+    <td align="center">
+      <img width="450" alt="Adding a third camera" src="https://github.com/user-attachments/assets/194cc41c-3da7-4457-9062-394fa3d4a630" />
+    </td>
+  </tr>
+</table>
+
+#### Camera Encoding Stream Settings
+
+To support a higher frame rate for cameras connected to the same hub, you need to modify `lerobot\common\robot_devices\cameras\opencv.py`. After setting the resolution width and height, add the following line to set the MJPG stream. The cameras included with this product can only achieve 30fps at 640x480 in MJPG stream mode.
+
+```python
+self.camera.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'))
+```
+
+<img width="1185" height="579" alt="image" src="https://github.com/user-attachments/assets/fecc7bb0-effc-4280-b221-c2bd2acfd6f4" />
+
+#### Local Recording
+
+Local recording is straightforward and does not require a Hugging Face token.
+
+First, set the `HF_USER` environment variable to your username.
+
+  * **Linux/macOS:** `export HF_USER=your_user_name`
+  * **Windows (Command Prompt):** `set HF_USER=your_user_name`
+
+Then, use the following command to start recording:
+
+  * **Linux/macOS:**
+    ```bash
+    python lerobot/scripts/control_robot.py \
+      --robot.type=so101 \
+      --control.type=record \
+      --control.fps=30 \
+      --control.single_task="Grasp a lego block and put it in the bin." \
+      --control.repo_id=${HF_USER}/so101_test \
+      --control.tags='["so101","tutorial"]' \
+      --control.warmup_time_s=5 \
+      --control.episode_time_s=30 \
+      --control.reset_time_s=30 \
+      --control.num_episodes=10 \
+      --control.push_to_hub=false
+    ```
+  * **Windows (Powershell):**
+    ```powershell
+    python lerobot/scripts/control_robot.py `
+      --robot.type=so101 `
+      --control.type=record `
+      --control.fps=30 `
+      --control.single_task="Grasp a lego block and put it in the bin." `
+      --control.repo_id=${HF_USER}/so101_test `
+      --control.tags='[\"so101\",\"tutorial\"]' `
+      --control.warmup_time_s=5 `
+      --control.episode_time_s=30 `
+      --control.reset_time_s=30 `
+      --control.num_episodes=10 `
+      --control.push_to_hub=false
+    ```
+
+To continue a previous recording, you can add `--control.resume=true` to the command.
+
+#### Parameter Explanations
+
+| Parameter | Explanation | Suggested Settings |
+| :--- | :--- | :--- |
+| `control.num_episodes` | The number of times to repeat the action. | |
+| `control.warmup_time_s` | The time, in seconds, from when the program starts until it begins recording valid data. | Set it shorter (e.g., 2 seconds) if your preparation is quick. |
+| `control.episode_time_s` | The duration of the entire task, in seconds. | |
+| `control.reset_time_s` | The time, in seconds, required to reset the scene to its initial state after completing the task. | If the scene reset is fast, you can set it shorter (e.g., 5 seconds). If the scene is complex and involves resetting multiple items, a longer time is needed. |
+| `control.push_to_hub=false` | Do not upload data to Hugging Face. | |
+
+**The end of each action can be triggered in two ways:**
+
+  * The timer reaches `episode_time_s`.
+  * You press the right arrow key on the keyboard to end the current episode early if the action is completed.
+
+#### Basic Workflow
+
+  * Manually operate the Leader arm to complete the target action (e.g., grasp a cup).
+  * The Follower arm will synchronously record the motion trajectory through the cameras.
+
+It is recommended to first collect about 10 episodes to test the entire process. For better results, you should collect more episodes (e.g., ≥50).
+
 
 ## License
 
