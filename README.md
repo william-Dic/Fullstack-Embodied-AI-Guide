@@ -341,7 +341,32 @@ This content will cover the installation of both the gripper camera mount and th
       5. <b>Attach the Camera Stand:</b> Clamp the camera tablet stand onto the clamp.
     </td>
     <td align="center">
-      <img width="300" alt="Attach the Camera Stand" src="
+      <img width="300" alt="Attach the Camera Stand" src="https://github.com/user-attachments/assets/d663a4fd-1db5-4024-83f2-b9a0f24efa73" />
+    </td>
+  </tr>
+</table>
+
+<p>
+  <b>Camera Stand Installation</b>
+</p>
+<table>
+  <tr>
+    <td>
+      1. <b>Cable Management:</b> Use zip ties to secure the camera's USB cable to the vertical stand post.
+    </td>
+    <td align="center">
+      <img width="300" alt="Cable Management" src="https://github.com/user-attachments/assets/855177db-2c7b-4776-8d92-fcb7062c352b" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2. <b>Final Installation:</b> Insert the stand into the base.
+    </td>
+    <td align="center">
+      <img width="300" alt="Final Installation" src="https://github.com/user-attachments/assets/0b3715e9-dd99-4d1e-87ec-f60dc2061ab6" />
+    </td>
+  </tr>
+</table>
 
 
 ## License
