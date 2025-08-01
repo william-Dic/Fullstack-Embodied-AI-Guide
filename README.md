@@ -300,9 +300,6 @@ This content will cover the installation of both the gripper camera mount and th
 
 #### Fixed Environment Camera
 
-<p>
-  <b>Mounting the Clamp</b>
-</p>
 <table>
   <tr>
     <td>
