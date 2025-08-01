@@ -204,7 +204,7 @@ Once you have both arms connected to power and a USB signal line, run the calibr
     python lerobot\scripts\control_robot.py --robot.type=so101 --robot.cameras='{}' --control.type=calibrate --control.arms='[\"main_follower\"]'
     ```
 
------
+---
 
 
 ### **Manually Calibrating the Leader Arm**
