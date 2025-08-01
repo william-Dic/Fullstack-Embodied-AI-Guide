@@ -12,7 +12,6 @@
     <p><b>Video</b></p>
     <video width="300" controls>
       <source src="https://github.com/user-attachments/assets/b8e52ab4-d42b-49c6-b85b-79cca7e72947" type="video/mp4">
-      Your browser does not support the video tag.
     </video>
   </div>
 </div>
