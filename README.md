@@ -65,7 +65,7 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
           <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
         </ul>
       </li>
-      <li><a href="#pax" class="text-blue-600 hover:underline">Say hi to Pax! 🤖🚀</a></li>
+      <li>2.4 <a href="#pax" class="text-blue-600 hover:underline">Create Your Own Robotic Agent and Say hi to Pax! 🤖🚀</a></li>
     </ul>
   </div>
 </div>
