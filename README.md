@@ -292,10 +292,6 @@ Missing calibration file ".cache/calibration/so101/main_follower.json"
 
 This indicates that the calibration was not successful, or you have not placed the calibration file for the assembled product in the correct location. For users who purchased an assembled product, do not press the Enter key, as this will reset the robot arm's center position and invalidate the factory calibration parameters.
 
-Based on the material you provided, I have translated the instructions for setting up the cameras and structured them as a new section for your guide.
-
-This content will cover the installation of both the gripper camera mount and the fixed environment camera.
-
 ---
 
 ### **1.7 Camera Setup**
