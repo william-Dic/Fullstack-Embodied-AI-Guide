@@ -13,7 +13,6 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 
 <div class="flex flex-col lg:flex-row gap-4 p-4 lg:p-8 bg-gray-100 rounded-lg shadow-inner">
 
-  <!-- First Table: Hardware -->
   <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
     <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">1. Hardware</h3>
     <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
@@ -49,7 +48,6 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
     </ul>
   </div>
 
-  <!-- Second Table: Software -->
   <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
     <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">2. Software</h3>
     <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
