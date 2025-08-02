@@ -1,5 +1,4 @@
 <h1 align="center">Fullstack Embodied AI Guide</h1>
-TODO:1.add the instruction of how to create environments 2. upload the ckpt and code
 <div align="center">
   <img width="300" alt="f939a2605d4f7fcccc692090e379753" src="https://github.com/user-attachments/assets/6145c4a7-bf46-4650-b57c-e90c18fe220e" />
 </div>
@@ -71,6 +70,68 @@ By the end of this guide, you will be able to **Create Your Own Robotic Agent!**
     </ul>
   </div>
 </div>
+
+---
+
+### **Environment Setup**
+
+This section guides you through configuring your environment, including installing Miniconda, creating a virtual environment, and cloning the required code repositories.
+
+#### Installing Miniconda (Recommended Python 3.10)
+
+Miniconda is recommended for managing your Python environment.
+
+  * **For Linux:**
+    ```bash
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    sh Miniconda3-latest-Linux-x86_64.sh
+    source ~/.bashrc
+    ```
+  * **For Windows:**
+      * You can download the installer from the [official website](https://www.anaconda.com/download/).
+      * Alternatively, you can use a previously downloaded version, such as 24.9.2.
+
+#### Creating a Virtual Environment
+
+Use Conda to create and activate a new virtual environment for this project.
+
+```bash
+conda create -n lerobot python=3.10
+conda activate lerobot
+```
+
+*To re-enter the environment later, you only need to run:* `conda activate lerobot`
+
+#### Cloning the Code Repository
+
+```bash
+git clone https://github.com/william-Dic/Fullstack-Embodied-AI-Guide.git
+```
+
+If you wish to experiment with the latest features from the official repository, you can clone it instead:
+```bash
+git clone https://github.com/huggingface/lerobot.git`
+cd lerobot
+git checkout aa8f5936
+```
+
+#### Installing Dependencies
+
+Navigate into the `lerobot` directory and install the required dependencies, including the drivers for the Feetech servos.
+
+```bash
+cd lerobot
+pip install -e ".[feetech]"
+```
+
+#### Installing FFmpeg
+
+It is recommended to install FFmpeg version 7.1.1, which supports `libsvtav1` encoding.
+
+```bash
+conda install -c conda-forge ffmpeg=7.1.1
+```
+
 
 ---
 ## 1. Hardware
