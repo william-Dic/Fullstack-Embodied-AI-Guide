@@ -67,10 +67,73 @@ By the end of this guide, you will be able to **Create Your Own Robotic Agent!**
           <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
         </ul>
       </li>
+      <li><a href="#environment-setup" class="text-blue-600 hover:underline">Environment Setup</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#installing-miniconda" class="text-blue-600 hover:underline">Installing Miniconda (Recommended Python 3.10)</a></li>
+          <li><a href="#creating-a-virtual-environment" class="text-blue-600 hover:underline">Creating a Virtual Environment</a></li>
+          <li><a href="#cloning-the-code-repository" class="text-blue-600 hover:underline">Cloning the Code Repository</a></li>
+          <li><a href="#installing-dependencies" class="text-blue-600 hover:underline">Installing Dependencies</a></li>
+          <li><a href="#installing-ffmpeg" class="text-blue-600 hover:underline">Installing FFmpeg</a></li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
 
+---
+
+<h3 id="environment-setup" class="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Environment Setup</h3>
+<p class="text-gray-700 dark:text-gray-200">This section guides you through configuring your environment, including installing Miniconda, creating a virtual environment, and cloning the required code repositories.</p>
+
+<h4 id="installing-miniconda" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Miniconda (Recommended Python 3.10)</h4>
+<p class="text-gray-700 dark:text-gray-200">Miniconda is recommended for managing your Python environment.</p>
+
+<ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-200">
+  <li><strong>For Linux:</strong>
+    <pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+</code></pre>
+  </li>
+  <li><strong>For Windows:</strong>
+    <ul class="list-disc list-inside ml-4">
+      <li>You can download the installer from the <a href="https://www.anaconda.com/download/" class="text-blue-600 hover:underline">official website</a>.</li>
+      <li>Alternatively, you can use a previously downloaded version, such as 24.9.2.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="creating-a-virtual-environment" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Creating a Virtual Environment</h4>
+<p class="text-gray-700 dark:text-gray-200">Use Conda to create and activate a new virtual environment for this project.</p>
+
+<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda create -n lerobot python=3.10
+conda activate lerobot
+</code></pre>
+<p class="text-gray-700 dark:text-gray-200"><em>To re-enter the environment later, you only need to run:</em> <code>conda activate lerobot</code></p>
+
+<h4 id="cloning-the-code-repository" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Cloning the Code Repository</h4>
+
+<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/william-Dic/Fullstack-Embodied-AI-Guide.git
+cd Fullstack-Embodied-AI-Guide
+</code></pre>
+<p class="text-gray-700 dark:text-gray-200">If you wish to experiment with the latest features from the official repository, you can clone it instead:</p>
+<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/huggingface/lerobot.git
+cd lerobot
+git checkout aa8f5936
+</code></pre>
+
+<h4 id="installing-dependencies" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Dependencies</h4>
+<p class="text-gray-700 dark:text-gray-200">Navigate into the <code>lerobot</code> directory and install the required dependencies, including the drivers for the Feetech servos.</p>
+
+<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>cd lerobot
+pip install -e ".[feetech]"
+</code></pre>
+
+<h4 id="installing-ffmpeg" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing FFmpeg</h4>
+<p class="text-gray-700 dark:text-gray-200">It is recommended to install FFmpeg version 7.1.1, which supports <code>libsvtav1</code> encoding.</p>
+
+<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda install -c conda-forge ffmpeg=7.1.1
+</code></pre>
 ---
 
 ### **Environment Setup**
