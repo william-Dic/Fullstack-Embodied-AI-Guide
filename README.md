@@ -12,77 +12,118 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 By the end of this guide, you will be able to **Create Your Own Robotic Agent!** You can also [**Say hi to Pax**](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/) to see an example of what's possible! 
 
 ---
-<div class="flex flex-col gap-8 p-4 lg:p-8 bg-gray-100 rounded-lg shadow-inner">
+<div class="flex flex-col lg:flex-row gap-4 p-4 lg:p-8 bg-gray-100 rounded-lg shadow-inner">
 
-  <div class="w-full bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">Environment Setup</h3>
-    <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
-      <li><a href="#installing-miniconda" class="text-blue-600 hover:underline">Installing Miniconda (Recommended Python 3.10)</a></li>
-      <li><a href="#creating-a-virtual-environment" class="text-blue-600 hover:underline">Creating a Virtual Environment</a></li>
-      <li><a href="#cloning-the-code-repository" class="text-blue-600 hover:underline">Cloning the Code Repository</a></li>
-      <li><a href="#installing-dependencies" class="text-blue-600 hover:underline">Installing Dependencies</a></li>
-      <li><a href="#installing-ffmpeg" class="text-blue-600 hover:underline">Installing FFmpeg</a></li>
-    </ul>
-</div>
+  <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
 
-  <div class="flex flex-col lg:flex-row gap-4">
+    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">1. Hardware</h3>
 
-    <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-      <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">1. Hardware</h3>
-      <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
-        <li>1.1 <a href="#getting-started-acquiring-your-so-arm101" class="text-blue-600 hover:underline">Getting Started: Acquiring Your SO-ARM101</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#build-your-own" class="text-blue-600 hover:underline">Build Your Own</a></li>
-            <li><a href="#purchase-a-kit" class="text-blue-600 hover:underline">Purchase a Kit</a></li>
-          </ul>
-        </li>
-        <li>1.2 <a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Setting Up Your Robotic Arm</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Download the Servo Configuration Tool</a></li>
-            <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Follow the Configuration Tutorial</a></li>
-            <li><a href="#setting-up-your-leaderfollower-arm-servos" class="text-blue-600 hover:underline">Setting Up Your Leader&Follower Arm Servos</a></li>
-          </ul>
-        </li>
-        <li>1.3 <a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembling and Wiring Your Robotic Arm</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly CAD Animation</a></li>
-            <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly Real Demonstration</a></li>
-            <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Wiring Demonstration</a></li>
-          </ul>
-        </li>
-        <li>1.4 <a href="#joint-midpoint-and-limit-settings" class="text-blue-600 hover:underline">Joint Midpoint and Limit Settings</a></li>
-        <li>1.5 <a href="#joint-calibration" class="text-blue-600 hover:underline">Joint Calibration</a></li>
-        <li>1.6 <a href="#teleoperation" class="text-blue-600 hover:underline">Teleoperation</a></li>
-        <li>1.7 <a href="#camera-setup" class="text-blue-600 hover:underline">Camera Setup</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#gripper-camera-mount" class="text-blue-600 hover:underline">Gripper Camera Mount</a></li>
-            <li><a href="#fixed-environment-camera" class="text-blue-600 hover:underline">Fixed Environment Camera</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
 
-    <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-      <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">2. Software</h3>
-      <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
-        <li>2.1 <a href="#camera-configuration-and-data-recording" class="text-blue-600 hover:underline">Camera Configuration and Data Recording</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#identifying-camera-ids" class="text-blue-600 hover:underline">Identifying Camera IDs</a></li>
-            <li><a href="#camera-resolution-and-fov" class="text-blue-600 hover:underline">Camera Resolution and FOV</a></li>
-            <li><a href="#camera-encoding-stream-settings" class="text-blue-600 hover:underline">Camera Encoding Stream Settings</a></li>
-            <li><a href="#local-recording" class="text-blue-600 hover:underline">Local Recording</a></li>
-          </ul>
-        </li>
-        <li>2.2 <a href="#training-configuration" class="text-blue-600 hover:underline">Training Configuration</a></li>
-        <li>2.3 <a href="#real-time-inference-test" class="text-blue-600 hover:underline">Real-Time Inference Test</a>
-          <ul class="ml-4 list-disc list-inside space-y-1">
-            <li><a href="#running-the-inference-test" class="text-blue-600 hover:underline">Running the Inference Test</a></li>
-            <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
+      <li>1.1 <a href="#getting-started-acquiring-your-so-arm101" class="text-blue-600 hover:underline">Getting Started: Acquiring Your SO-ARM101</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#build-your-own" class="text-blue-600 hover:underline">Build Your Own</a></li>
+
+          <li><a href="#purchase-a-kit" class="text-blue-600 hover:underline">Purchase a Kit</a></li>
+
+        </ul>
+
+      </li>
+
+      <li>1.2 <a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Setting Up Your Robotic Arm</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Download the Servo Configuration Tool</a></li>
+
+          <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Follow the Configuration Tutorial</a></li>
+
+          <li><a href="#setting-up-your-leaderfollower-arm-servos" class="text-blue-600 hover:underline">Setting Up Your Leader&Follower Arm Servos</a></li>
+
+        </ul>
+
+      </li>
+
+      <li>1.3 <a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembling and Wiring Your Robotic Arm</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly CAD Animation</a></li>
+
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly Real Demonstration</a></li>
+
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Wiring Demonstration</a></li>
+
+        </ul>
+
+      </li>
+
+      <li>1.4 <a href="#joint-midpoint-and-limit-settings" class="text-blue-600 hover:underline">Joint Midpoint and Limit Settings</a></li>
+
+      <li>1.5 <a href="#joint-calibration" class="text-blue-600 hover:underline">Joint Calibration</a></li>
+
+      <li>1.6 <a href="#teleoperation" class="text-blue-600 hover:underline">Teleoperation</a></li>
+
+      <li>1.7 <a href="#camera-setup" class="text-blue-600 hover:underline">Camera Setup</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#gripper-camera-mount" class="text-blue-600 hover:underline">Gripper Camera Mount</a></li>
+
+          <li><a href="#fixed-environment-camera" class="text-blue-600 hover:underline">Fixed Environment Camera</a></li>
+
+        </ul>
+
+      </li>
+
+    </ul>
+
+  </div>
+
+
+
+  <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+
+    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">2. Software</h3>
+
+    <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
+
+      <li>2.1 <a href="#camera-configuration-and-data-recording" class="text-blue-600 hover:underline">Camera Configuration and Data Recording</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#identifying-camera-ids" class="text-blue-600 hover:underline">Identifying Camera IDs</a></li>
+
+          <li><a href="#camera-resolution-and-fov" class="text-blue-600 hover:underline">Camera Resolution and FOV</a></li>
+
+          <li><a href="#camera-encoding-stream-settings" class="text-blue-600 hover:underline">Camera Encoding Stream Settings</a></li>
+
+          <li><a href="#local-recording" class="text-blue-600 hover:underline">Local Recording</a></li>
+
+        </ul>
+
+      </li>
+
+      <li>2.2 <a href="#training-configuration" class="text-blue-600 hover:underline">Training Configuration</a></li>
+
+      <li>2.3 <a href="#real-time-inference-test" class="text-blue-600 hover:underline">Real-Time Inference Test</a>
+
+        <ul class="ml-4 list-disc list-inside space-y-1">
+
+          <li><a href="#running-the-inference-test" class="text-blue-600 hover:underline">Running the Inference Test</a></li>
+
+          <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
+
+        </ul>
+
+      </li>
+
+    </ul>
+
+  </div>
+
 </div>
 ---
 
