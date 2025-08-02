@@ -710,6 +710,6 @@ Ultimately, I want this project to be a full-stack resource, covering not only t
 
 ## License
 
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is open-source and available under the [Apache-2.0 license](https://www.google.com/search?q=LICENSE).
 
 
