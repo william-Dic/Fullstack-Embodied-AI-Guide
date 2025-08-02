@@ -106,6 +106,7 @@ conda activate lerobot
 
 ```bash
 git clone https://github.com/william-Dic/Fullstack-Embodied-AI-Guide.git
+cd Fullstack-Embodied-AI-Guide
 ```
 
 If you wish to experiment with the latest features from the official repository, you can clone it instead:
