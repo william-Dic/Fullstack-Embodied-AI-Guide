@@ -710,6 +710,6 @@ Ultimately, I want this project to be a full-stack resource, covering not only t
 
 ## License
 
-This project is open-source and available under the [Apache-2.0 license](https://www.google.com/search?q=LICENSE).
+This project is open-source and available under the[ Apache-2.0 license](https://www.google.com/search?q=apache-2.0+license&oq=Apache-2.0+license&gs_lcrp=EgZjaHJvbWUqDAgAEAAYQxiABBiKBTIMCAAQABhDGIAEGIoFMgwIARAAGEMYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEJMjE0OWowajE1qAIMsAIB8QWlXoMhygHnpg&sourceid=chrome&ie=UTF-8)
 
 
