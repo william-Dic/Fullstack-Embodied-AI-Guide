@@ -411,7 +411,7 @@ Only respond with the JSON object, nothing else."""
             # Create a new client for the analysis
             analysis_client = genai.Client(
                 http_options={"api_version": "v1beta"},
-                api_key="REDACTED"
+                api_key=os.environ.get('GEMINI_API_KEY')
             )
             response = analysis_client.models.generate_content(
                 model='models/gemini-2.0-flash',
