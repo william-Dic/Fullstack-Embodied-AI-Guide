@@ -697,6 +697,16 @@ To test the trained model in real-time, run one of the following commands. This 
 
 Congratulations! You've taken the first major step into the world of embodied AI by creating your very own robot arm. This isn't just a collection of parts—it's the foundation for a future filled with possibility. The journey is just beginning, and I'll be here to guide you as we add the power of language to your robot. For now, take a moment to admire what you've built. Say hi to your new robotic partner! 🤖🚀
 
+## TODO List & Contribution
+Welcome! I'm actively seeking contributions to help expand this project. Feel free to open a pull request🚀.
+Ultimately, I want this project to be a full-stack resource, covering not only the practical aspects of hardware and software but also the underlying theoretical knowledge.
+
+- [ ] Added More Languages(Chinese)
+- [ ] Open another section for nice paper collections
+- [ ] Write document of basic robotics hardware knowledge(FE,IE,DOF etc.)
+- [ ] Write document of basic robotics software knowledge(MPC, RL Control, VLA etc.)
+- [ ] etc.
+
 
 ## License
 
