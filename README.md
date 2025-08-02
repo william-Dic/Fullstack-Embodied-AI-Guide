@@ -12,11 +12,60 @@ Whether you're a beginner curious about robots or eager to explore advanced AI, 
 By the end of this guide, you will be able to **Create Your Own Robotic Agent!** You can also [**Say hi to Pax**](https://www.linkedin.com/feed/update/urn:li:activity:7347260255132676097/) to see an example of what's possible! 
 
 ---
-
 <div class="flex flex-col lg:flex-row gap-4 p-4 lg:p-8 bg-gray-100 rounded-lg shadow-inner">
   <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">Contents</h3>
+    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">1. Hardware</h3>
     <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
+      <li>1.1 <a href="#getting-started-acquiring-your-so-arm101" class="text-blue-600 hover:underline">Getting Started: Acquiring Your SO-ARM101</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#build-your-own" class="text-blue-600 hover:underline">Build Your Own</a></li>
+          <li><a href="#purchase-a-kit" class="text-blue-600 hover:underline">Purchase a Kit</a></li>
+        </ul>
+      </li>
+      <li>1.2 <a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Setting Up Your Robotic Arm</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Download the Servo Configuration Tool</a></li>
+          <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Follow the Configuration Tutorial</a></li>
+          <li><a href="#setting-up-your-leaderfollower-arm-servos" class="text-blue-600 hover:underline">Setting Up Your Leader&Follower Arm Servos</a></li>
+        </ul>
+      </li>
+      <li>1.3 <a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembling and Wiring Your Robotic Arm</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly CAD Animation</a></li>
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly Real Demonstration</a></li>
+          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Wiring Demonstration</a></li>
+        </ul>
+      </li>
+      <li>1.4 <a href="#joint-midpoint-and-limit-settings" class="text-blue-600 hover:underline">Joint Midpoint and Limit Settings</a></li>
+      <li>1.5 <a href="#joint-calibration" class="text-blue-600 hover:underline">Joint Calibration</a></li>
+      <li>1.6 <a href="#teleoperation" class="text-blue-600 hover:underline">Teleoperation</a></li>
+      <li>1.7 <a href="#camera-setup" class="text-blue-600 hover:underline">Camera Setup</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#gripper-camera-mount" class="text-blue-600 hover:underline">Gripper Camera Mount</a></li>
+          <li><a href="#fixed-environment-camera" class="text-blue-600 hover:underline">Fixed Environment Camera</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800 dark:text-white">2. Software</h3>
+    <ul class="list-none space-y-2 text-gray-700 dark:text-gray-200">
+      <li>2.1 <a href="#camera-configuration-and-data-recording" class="text-blue-600 hover:underline">Camera Configuration and Data Recording</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#identifying-camera-ids" class="text-blue-600 hover:underline">Identifying Camera IDs</a></li>
+          <li><a href="#camera-resolution-and-fov" class="text-blue-600 hover:underline">Camera Resolution and FOV</a></li>
+          <li><a href="#camera-encoding-stream-settings" class="text-blue-600 hover:underline">Camera Encoding Stream Settings</a></li>
+          <li><a href="#local-recording" class="text-blue-600 hover:underline">Local Recording</a></li>
+        </ul>
+      </li>
+      <li>2.2 <a href="#training-configuration" class="text-blue-600 hover:underline">Training Configuration</a></li>
+      <li>2.3 <a href="#real-time-inference-test" class="text-blue-600 hover:underline">Real-Time Inference Test</a>
+        <ul class="ml-4 list-disc list-inside space-y-1">
+          <li><a href="#running-the-inference-test" class="text-blue-600 hover:underline">Running the Inference Test</a></li>
+          <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
+        </ul>
+      </li>
       <li><a href="#environment-setup" class="text-blue-600 hover:underline">Environment Setup</a>
         <ul class="ml-4 list-disc list-inside space-y-1">
           <li><a href="#installing-miniconda" class="text-blue-600 hover:underline">Installing Miniconda (Recommended Python 3.10)</a></li>
@@ -26,171 +75,10 @@ By the end of this guide, you will be able to **Create Your Own Robotic Agent!**
           <li><a href="#installing-ffmpeg" class="text-blue-600 hover:underline">Installing FFmpeg</a></li>
         </ul>
       </li>
-      <li><a href="#hardware" class="text-blue-600 hover:underline">Hardware</a>
-        <ul class="ml-4 list-disc list-inside space-y-1">
-          <li><a href="#getting-started-acquiring-your-so-arm101" class="text-blue-600 hover:underline">Getting Started: Acquiring Your SO-ARM101</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#build-your-own" class="text-blue-600 hover:underline">Build Your Own</a></li>
-              <li><a href="#purchase-a-kit" class="text-blue-600 hover:underline">Purchase a Kit</a></li>
-            </ul>
-          </li>
-          <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Setting Up Your Robotic Arm</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Download the Servo Configuration Tool</a></li>
-              <li><a href="#setting-up-your-robotic-arm" class="text-blue-600 hover:underline">Follow the Configuration Tutorial</a></li>
-              <li><a href="#setting-up-your-leaderfollower-arm-servos" class="text-blue-600 hover:underline">Setting Up Your Leader&Follower Arm Servos</a></li>
-            </ul>
-          </li>
-          <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembling and Wiring Your Robotic Arm</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly CAD Animation</a></li>
-              <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Assembly Real Demonstration</a></li>
-              <li><a href="#assembling-and-wiring-your-robotic-arm" class="text-blue-600 hover:underline">Wiring Demonstration</a></li>
-            </ul>
-          </li>
-          <li><a href="#joint-midpoint-and-limit-settings" class="text-blue-600 hover:underline">Joint Midpoint and Limit Settings</a></li>
-          <li><a href="#joint-calibration" class="text-blue-600 hover:underline">Joint Calibration</a></li>
-          <li><a href="#teleoperation" class="text-blue-600 hover:underline">Teleoperation</a></li>
-          <li><a href="#camera-setup" class="text-blue-600 hover:underline">Camera Setup</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#gripper-camera-mount" class="text-blue-600 hover:underline">Gripper Camera Mount</a></li>
-              <li><a href="#fixed-environment-camera" class="text-blue-600 hover:underline">Fixed Environment Camera</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-
-      <li><a href="#software" class="text-blue-600 hover:underline">Software</a>
-        <ul class="ml-4 list-disc list-inside space-y-1">
-          <li><a href="#camera-configuration-and-data-recording" class="text-blue-600 hover:underline">Camera Configuration and Data Recording</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#identifying-camera-ids" class="text-blue-600 hover:underline">Identifying Camera IDs</a></li>
-              <li><a href="#camera-resolution-and-fov" class="text-blue-600 hover:underline">Camera Resolution and FOV</a></li>
-              <li><a href="#camera-encoding-stream-settings" class="text-blue-600 hover:underline">Camera Encoding Stream Settings</a></li>
-              <li><a href="#local-recording" class="text-blue-600 hover:underline">Local Recording</a></li>
-            </ul>
-          </li>
-          <li><a href="#training-configuration" class="text-blue-600 hover:underline">Training Configuration</a></li>
-          <li><a href="#real-time-inference-test" class="text-blue-600 hover:underline">Real-Time Inference Test</a>
-            <ul class="ml-4 list-disc list-inside space-y-1">
-              <li><a href="#running-the-inference-test" class="text-blue-600 hover:underline">Running the Inference Test</a></li>
-              <li><a href="#common-issues-during-inference" class="text-blue-600 hover:underline">Common Issues During Inference</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
     </ul>
   </div>
 </div>
 
----
-
-<h3 id="environment-setup" class="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Environment Setup</h3>
-<p class="text-gray-700 dark:text-gray-200">This section guides you through configuring your environment, including installing Miniconda, creating a virtual environment, and cloning the required code repositories.</p>
-
-<h4 id="installing-miniconda" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Miniconda (Recommended Python 3.10)</h4>
-<p class="text-gray-700 dark:text-gray-200">Miniconda is recommended for managing your Python environment.</p>
-
-<ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-200">
-  <li><strong>For Linux:</strong>
-    <pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc
-</code></pre>
-  </li>
-  <li><strong>For Windows:</strong>
-    <ul class="list-disc list-inside ml-4">
-      <li>You can download the installer from the <a href="https://www.anaconda.com/download/" class="text-blue-600 hover:underline">official website</a>.</li>
-      <li>Alternatively, you can use a previously downloaded version, such as 24.9.2.</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="creating-a-virtual-environment" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Creating a Virtual Environment</h4>
-<p class="text-gray-700 dark:text-gray-200">Use Conda to create and activate a new virtual environment for this project.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda create -n lerobot python=3.10
-conda activate lerobot
-</code></pre>
-<p class="text-gray-700 dark:text-gray-200"><em>To re-enter the environment later, you only need to run:</em> <code>conda activate lerobot</code></p>
-
-<h4 id="cloning-the-code-repository" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Cloning the Code Repository</h4>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/william-Dic/Fullstack-Embodied-AI-Guide.git
-cd Fullstack-Embodied-AI-Guide
-</code></pre>
-<p class="text-gray-700 dark:text-gray-200">If you wish to experiment with the latest features from the official repository, you can clone it instead:</p>
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/huggingface/lerobot.git
-cd lerobot
-git checkout aa8f5936
-</code></pre>
-
-<h4 id="installing-dependencies" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Dependencies</h4>
-<p class="text-gray-700 dark:text-gray-200">Navigate into the <code>lerobot</code> directory and install the required dependencies, including the drivers for the Feetech servos.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>cd lerobot
-pip install -e ".[feetech]"
-</code></pre>
-
-<h4 id="installing-ffmpeg" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing FFmpeg</h4>
-<p class="text-gray-700 dark:text-gray-200">It is recommended to install FFmpeg version 7.1.1, which supports <code>libsvtav1</code> encoding.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda install -c conda-forge ffmpeg=7.1.1
-</code></pre>
----
-
-<h3 id="environment-setup" class="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Environment Setup</h3>
-<p class="text-gray-700 dark:text-gray-200">This section guides you through configuring your environment, including installing Miniconda, creating a virtual environment, and cloning the required code repositories.</p>
-
-<h4 id="installing-miniconda" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Miniconda (Recommended Python 3.10)</h4>
-<p class="text-gray-700 dark:text-gray-200">Miniconda is recommended for managing your Python environment.</p>
-
-<ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-200">
-  <li><strong>For Linux:</strong>
-    <pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc
-</code></pre>
-  </li>
-  <li><strong>For Windows:</strong>
-    <ul class="list-disc list-inside ml-4">
-      <li>You can download the installer from the <a href="https://www.anaconda.com/download/" class="text-blue-600 hover:underline">official website</a>.</li>
-      <li>Alternatively, you can use a previously downloaded version, such as 24.9.2.</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="creating-a-virtual-environment" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Creating a Virtual Environment</h4>
-<p class="text-gray-700 dark:text-gray-200">Use Conda to create and activate a new virtual environment for this project.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda create -n lerobot python=3.10
-conda activate lerobot
-</code></pre>
-<p class="text-gray-700 dark:text-gray-200"><em>To re-enter the environment later, you only need to run:</em> <code>conda activate lerobot</code></p>
-
-<h4 id="cloning-the-code-repository" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Cloning the Code Repository</h4>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/william-Dic/Fullstack-Embodied-AI-Guide.git
-cd Fullstack-Embodied-AI-Guide
-</code></pre>
-<p class="text-gray-700 dark:text-gray-200">If you wish to experiment with the latest features from the official repository, you can clone it instead:</p>
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>git clone https://github.com/huggingface/lerobot.git
-cd lerobot
-git checkout aa8f5936
-</code></pre>
-
-<h4 id="installing-dependencies" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing Dependencies</h4>
-<p class="text-gray-700 dark:text-gray-200">Navigate into the <code>lerobot</code> directory and install the required dependencies, including the drivers for the Feetech servos.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>cd lerobot
-pip install -e ".[feetech]"
-</code></pre>
-
-<h4 id="installing-ffmpeg" class="text-xl font-bold mt-6 mb-2 text-gray-800 dark:text-white">Installing FFmpeg</h4>
-<p class="text-gray-700 dark:text-gray-200">It is recommended to install FFmpeg version 7.1.1, which supports <code>libsvtav1</code> encoding.</p>
-
-<pre class="bg-gray-200 dark:bg-gray-700 p-2 rounded text-sm overflow-x-auto"><code>conda install -c conda-forge ffmpeg=7.1.1
-</code></pre>
 ---
 
 ### **Environment Setup**
