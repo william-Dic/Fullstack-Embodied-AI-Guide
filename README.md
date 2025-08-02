@@ -23,7 +23,7 @@ By the end of this guide, you will be able to **Create Your Own Robotic Agent!**
       <li><a href="#installing-dependencies" class="text-blue-600 hover:underline">Installing Dependencies</a></li>
       <li><a href="#installing-ffmpeg" class="text-blue-600 hover:underline">Installing FFmpeg</a></li>
     </ul>
-  </div>
+</div>
 
   <div class="flex flex-col lg:flex-row gap-4">
 
